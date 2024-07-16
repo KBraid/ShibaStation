@@ -547,3 +547,217 @@
     - pinging
     - pinging.
     - pinging!
+
+# Harpy
+- type: emote
+  id: HonkHarpy
+  category: Vocal
+  chatMessages: [honks.]
+  chatTriggers:
+    - honk.
+    - honks.
+    - honks!
+    - honking.
+    - honked.
+
+- type: emote
+  id: Ring
+  category: Vocal
+  chatMessages: [rings.]
+  chatTriggers:
+    - ring.
+    - rings.
+    - rings!
+    - ringing.
+    - ringed.
+
+- type: emote
+  id: Pew
+  category: Vocal
+  chatMessages: [pews.]
+  chatTriggers:
+    - pew.
+    - pews.
+    - pew!
+
+- type: emote
+  id: Bang
+  category: Vocal
+  chatMessages: [bangs.]
+  chatTriggers:
+    - bangs.
+    - bang.
+    - bang!
+    - banging.
+    - banged.
+
+- type: emote
+  id: Beep
+  category: Vocal
+  chatMessages: [beeps.]
+  chatTriggers:
+    - beeps.
+    - beep.
+    - beep!
+    - beeping.
+    - beeped.
+
+- type: emote
+  id: Rev
+  category: Vocal
+  chatMessages: [revs.]
+  chatTriggers:
+    - revs.
+    - rev.
+    - rev!
+    - revving
+    - revved
+
+#- type: emote
+#  id: Click
+#  category: Vocal
+#  chatMessages: [clicks.]
+#  chatTriggers:
+#    - clicks.
+#    - click.
+#    - click!
+#    - clicking.
+#    - clicked.
+
+- type: emote
+  id: Caw
+  category: Vocal
+  chatMessages: [caws.]
+  chatTriggers:
+    - caws.
+    - caw.
+    - caw!
+    - cawing
+    - cawed
+
+- type: emote
+  id: Chirp
+  category: Vocal
+  chatMessages: [chirps.]
+  chatTriggers:
+    - chirps.
+    - chirp.
+    - chirp!
+    - chirping.
+    - chirped.
+
+#Vulpkanin
+- type: emote
+  id: Bark
+  category: Vocal
+  chatMessages: [barks.]
+  chatTriggers:
+    - bark.
+    - bark!
+    - barks.
+    - barks!
+    - barked.
+    - barked!
+    - barking.
+
+- type: emote
+  id: Snarl
+  category: Vocal
+  chatMessages: [snarls.]
+  chatTriggers:
+    - snarl.
+    - snarl!
+    - snarls.
+    - snarls!
+    - snarled.
+    - snarled!
+    - snarling.
+
+- type: emote
+  id: Whine
+  category: Vocal
+  chatMessages: [whines.]
+  chatTriggers:
+    - whine.
+    - whine!
+    - whines.
+    - whines!
+    - whined.
+    - whined!
+    - whining.
+
+# Felinds
+
+# vocal emotes
+- type: emote
+  id: Hiss
+  category: Vocal
+  chatMessages: [hisses.]
+  chatTriggers:
+    - hiss.
+    - hisses.
+    - hisses!
+    - hissing.
+    - hissed.
+
+- type: emote
+  id: Meow
+  category: Vocal
+  chatMessages: [meows.]
+  chatTriggers:
+    - meow.
+    - meow!
+    - meows.
+    - meows~
+    - meows!
+    - meowing.
+    - meowed.
+    - miau.
+    - miaus.
+    - miaus!
+    - nya.
+    - nyas.
+    - nyas!
+    - mraow.
+    - mraow!
+    - mraow~
+    - mraows.
+    - mraows!
+    - mraows~
+
+- type: emote
+  id: Mew
+  category: Vocal
+  chatMessages: [mews.]
+  chatTriggers:
+    - mew.
+    - mew!
+    - mew~
+    - mews.
+    - mews!
+    - mews~
+    - mewing.
+    - mewed.
+
+- type: emote
+  id: Growl
+  category: Vocal
+  chatMessages: [growls.]
+  chatTriggers:
+    - growl.
+    - growls.
+    - growls!
+    - growling.
+    - growled.
+
+- type: emote
+  id: Purr
+  category: Vocal
+  chatMessages: [purrs.]
+  chatTriggers:
+    - purr.
+    - purrs.
+    - purrs~
+    - purrs!
+    - purring.
+    - purred.
