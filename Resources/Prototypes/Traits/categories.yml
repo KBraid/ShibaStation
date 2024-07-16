@@ -8,5 +8,15 @@
   maxTraitPoints: 2
 
 - type: traitCategory
+  id: AccentTraits
+  name: trait-category-accent
+  maxTraitPoints: 1
+
+- type: traitCategory
+  id: VisionTraits
+  name: trait-category-vision
+  maxTraitPoints: 3
+
+- type: traitCategory
   id: Quirks
   name: trait-category-quirks
