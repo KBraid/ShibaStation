@@ -62,15 +62,6 @@
     - type: GermanAccent
 
 - type: trait
-  id: GermanAccent
-  name: trait-german-name
-  description: trait-german-desc
-  category: SpeechTraits
-  cost: 1
-  components:
-    - type: GermanAccent
-
-- type: trait
   id: Liar
   name: trait-liar-name
   description: trait-liar-desc
