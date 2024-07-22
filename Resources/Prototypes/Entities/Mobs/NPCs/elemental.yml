@@ -323,6 +323,7 @@
         - ReagentSlimeNorepinephricAcid
         - ReagentSlimeEphedrine
         - ReagentSlimeRobustHarvest
+        - ReagentSlimeSemen
       chance: 1
 
 - type: entity
@@ -534,3 +535,20 @@
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
         color: "#3e901c"
+
+- type: entity
+  id: ReagentSlimeSemen
+  parent: ReagentSlime
+  suffix: Semen
+  components:
+  - type: Bloodstream
+    bloodReagent: Semen
+  - type: PointLight
+    color: "#F9F6F5"
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/elemental.rsi
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: alive
+        color: "#F9F6F5"

@@ -349,3 +349,22 @@
         conditions:
         - !type:ReagentThreshold
           min: 50
+
+# Effectively just a copy of Omnizine, will be tied to the Chaplain's bless abilities once expanded later - AstroDoge
+- type: reagent
+  id: Blessium
+  name: reagent-name-blessium
+  desc: reagent-desc-blessium
+  physicalDesc: reagent-physical-desc-glittering
+  flavor: holy
+  color: "#FFD700"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Burn: -2
+            Toxin: -2
+            Airloss: -2
+            Brute: -2
