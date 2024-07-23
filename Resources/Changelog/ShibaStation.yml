@@ -1,6 +1,36 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Enabled Worldgen on the server, meaning that more wrecks for salvage will spawn!
+    type: Tweak
+  id: 29
+  time: '2024-07-23T06:20:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Fixed broken shuttle names (salvage shuttle, ATS) from an upstream change. Salvage shuttle will have a random name each round! Feel free to recommend new funny names in the Discord!
+    type: Fix
+  id: 28
+  time: '2024-07-23T06:20:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Added Github, Issues, Discord and a Website (totally getting removed later) links!
+    type: Add
+  id: 27
+  time: '2024-07-23T06:20:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Added Blessium, a precursor to some upcoming changes to the Chaplain role...
+    type: Add
+  id: 26
+  time: '2024-07-22T21:02:01.337Z'
+- author: AstroDoge
+  changes:
+  - message: Added semen reagent slimes. The cum monsters are real.
+    type: Add
+  id: 25
+  time: '2024-07-22T19:21:15.337Z'
+- author: AstroDoge
+  changes:
   - message: Added semen.
     type: Add
   id: 24
