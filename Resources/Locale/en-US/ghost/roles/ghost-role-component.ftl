@@ -1,36 +1,36 @@
 # also used in MakeGhostRuleWindow and MakeGhostRoleCommand
-ghost-role-component-default-rules = All normal rules apply unless an administrator tells you otherwise.
-                                     You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                     You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                     You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-nonantagonist-rules = You are a [color=green][bold]Non-antagonist[/bold][/color]. You should generally not seek to harm the station and its crew.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-freeagent-rules = You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
-                                         You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                         You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                         You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-                                         Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color] without warning.
-ghost-role-information-antagonist-rules = You are a [color=red][bold]Solo Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
-                                          You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                          You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                          You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-familiar-rules = You are a [color=#6495ed][bold]Familiar[/bold][/color]. Serve the interests of your master, whatever those may be.
-                                        You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                        You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                        You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-ghost-role-information-silicon-rules = You are a [color=#6495ed][bold]Silicon[/bold][/color]. Obey your laws. You are a Free Agent if you are not currently bound by any laws.
-                                       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                       You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                       You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-component-default-rules = • All normal rules apply unless an administrator tells you otherwise.
+                                     • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                     • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                     • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-nonantagonist-rules = • You are a [color=green][bold]Non-antagonist[/bold][/color]. You should generally not seek to harm the station and its crew.
+                                             • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                             • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                             • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-freeagent-rules = • You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
+                                         • Station Crew [color=red][bold]are allowed[/bold] to kill you on sight[/color] [italic]without warning[/italic].
+                                         • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                         • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                         • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-antagonist-rules = • You are a [color=red][bold]Solo Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
+                                          • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                          • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                          • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-familiar-rules = • You are a [color=#6495ed][bold]Familiar[/bold][/color]. Serve the interests of your master, whatever those may be.
+                                        • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                        • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                        • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-silicon-rules = • You are a [color=#6495ed][bold]Silicon[/bold][/color]. Obey your laws. You are a Free Agent if you are not currently bound by any laws.
+                                       • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                       • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                       • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 
-ghost-role-information-rat-king-rules = You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
-                                       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                       You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                       You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-                                       Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color] without warning.
-                                       Having more than [color=yellow][bold]3 rat servants[/bold][/color] automatically marks you as an [color=red][bold]Antagonist[/bold][/color].
+ghost-role-information-rat-king-rules = • You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
+                                        • Station Crew [color=red][bold]are allowed[/bold] to kill you on sight[/color] [italic]without warning[/italic].
+                                        • Having [italic]more than[/italic] [color=blue][bold]3 rat servants[/bold][/color] automatically marks you as an [color=red][bold]Antagonist[/bold][/color].
+                                        • You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                        • You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                        • You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 
 ghost-role-information-mouse-name = Mouse
 ghost-role-information-mouse-description = A hungry and mischievous mouse.
@@ -140,7 +140,7 @@ ghost-role-information-skeleton-biker-name = Skeleton Biker
 ghost-role-information-skeleton-biker-description = Ride around on your sweet ride. Make all the girls on station swoon for you.
 
 ghost-role-information-closet-skeleton-name = Closet Skeleton
-ghost-role-information-closet-skeleton-description = You are arguably one of the oldest members of the station! Get your old job back, or that overdue promption! Your NT contract is still valid.
+ghost-role-information-closet-skeleton-description = You are arguably one of the oldest members of the station! Get your old job back, or that overdue promtion! Your NT contract is still valid.
 
 ghost-role-information-remilia-name = Remilia, the chaplain's familiar
 ghost-role-information-remilia-description = Follow and obey the chaplain. Eat fruit. Screech loudly into people's ears and write it off as echolocation.
