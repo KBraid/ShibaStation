@@ -1,6 +1,12 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Closet and Biker Skeletons are now NON-ANTAGONIST ghost roles. Pirate Skeleton remains FREE AGENT. Their Ghost Role rulesets and mob descriptions have been updated to reflect this. Closet/Biker Skeletons acting like antags are now subject to the Self-Antag rule.
+    type: Tweak
+  id: 30
+  time: '2024-07-27T20:00:00.337Z'
+- author: AstroDoge
+  changes:
   - message: Enabled Worldgen on the server, meaning that more wrecks for salvage will spawn!
     type: Tweak
   id: 29

@@ -25,7 +25,6 @@
     prototypes: [PirateGear]
   - type: RandomHumanoidAppearance
 
-
 - type: entity
   name: skeleton biker
   parent: MobSkeletonPerson
@@ -34,7 +33,7 @@
   - type: GhostRole
     name: ghost-role-information-skeleton-biker-name
     description: ghost-role-information-skeleton-biker-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -50,7 +49,7 @@
   - type: GhostRole
     name: ghost-role-information-closet-skeleton-name
     description: ghost-role-information-closet-skeleton-description
-    rules: ghost-role-information-freeagent-rules
+    rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: default
   - type: GhostTakeoverAvailable

@@ -11,6 +11,7 @@ ghost-role-information-freeagent-rules = You are a [color=yellow][bold]Free Agen
                                          You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                          You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
                                          You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                         Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color].
 ghost-role-information-antagonist-rules = You are a [color=red][bold]Solo Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
                                           You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                           You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
@@ -129,10 +130,10 @@ ghost-role-information-skeleton-pirate-name = Skeleton Pirate
 ghost-role-information-skeleton-pirate-description = Cause chaos and loot the station for treasure.
 
 ghost-role-information-skeleton-biker-name = Skeleton Biker
-ghost-role-information-skeleton-biker-description = Ride around on your sweet ride.
+ghost-role-information-skeleton-biker-description = Ride around on your sweet ride. Make all the girls on station swoon for you.
 
 ghost-role-information-closet-skeleton-name = Closet Skeleton
-ghost-role-information-closet-skeleton-description = You are arguably one of the oldest members of the station! Get your old job back, or cause chaos! The world is yours to shape.
+ghost-role-information-closet-skeleton-description = You are arguably one of the oldest members of the station! Get your old job back, or that overdue promption! Your NT contract is still valid.
 
 ghost-role-information-remilia-name = Remilia, the chaplain's familiar
 ghost-role-information-remilia-description = Follow and obey the chaplain. Eat fruit. Screech loudly into people's ears and write it off as echolocation.
