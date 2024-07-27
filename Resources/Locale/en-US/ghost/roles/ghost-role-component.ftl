@@ -11,7 +11,7 @@ ghost-role-information-freeagent-rules = You are a [color=yellow][bold]Free Agen
                                          You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                          You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
                                          You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-                                         Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color].
+                                         Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color] without warning.
 ghost-role-information-antagonist-rules = You are a [color=red][bold]Solo Antagonist[/bold][/color]. Your intentions are clear, and harmful to the station and its crew.
                                           You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                           You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
@@ -24,6 +24,13 @@ ghost-role-information-silicon-rules = You are a [color=#6495ed][bold]Silicon[/b
                                        You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                        You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
                                        You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+
+ghost-role-information-ratking-rules = You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
+                                       You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                       You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                       You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                       Station Crew [bold]are[/bold] [color=red]permitted to kill you on sight[/color] without warning.
+                                       Having more than [color=yellow][bold]3 rat servants[/bold][/color] automatically marks you as an [color=red][bold]Antagonist[/bold][/color].
 
 ghost-role-information-mouse-name = Mouse
 ghost-role-information-mouse-description = A hungry and mischievous mouse.
