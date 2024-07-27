@@ -1,6 +1,18 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: (ADMIN CHANGE) Admin Ghosts can now pull things without using their hands, like a lizard. They use their li'l ghost tail or something, idk. It'll make certain things as an admin ghost easier.
+    type: Tweak
+  id: 32
+  time: '2024-07-27T20:00:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Rat Kings remain FREE AGENT, however their ghost role rules now make it clear that they are still allowed to be KOS by the crew in addition to being considered ANTAGONIST if they have more than 3 rat servants.
+    type: Tweak
+  id: 31
+  time: '2024-07-27T20:00:00.337Z'
+- author: AstroDoge
+  changes:
   - message: Closet and Biker Skeletons are now NON-ANTAGONIST ghost roles. Pirate Skeleton remains FREE AGENT. Their Ghost Role rulesets and mob descriptions have been updated to reflect this. Closet/Biker Skeletons acting like antags are now subject to the Self-Antag rule.
     type: Tweak
   id: 30
