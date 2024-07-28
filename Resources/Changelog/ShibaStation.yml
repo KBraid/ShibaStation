@@ -1,6 +1,30 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Lots of tweaks to chat emotes; you should be able to trigger more of them now with different punctuation!
+    type: Fix
+  id: 36
+  time: '2024-07-28T7:30:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Harpies can't wear shoes - the shoe slot has been removed. Let them talons breathe!
+    type: Tweak
+  id: 35
+  time: '2024-07-28T7:30:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Like so much stuff related to harpies I can't even. Hands, default markings, inventory loadouts, etc.
+    type: Fix
+  id: 34
+  time: '2024-07-28T7:30:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: BIRD UP! 🐦 Harpies have been added and are WORKING! EVERYTHING! KWEH!
+    type: Add
+  id: 33
+  time: '2024-07-28T7:30:00.337Z'
+- author: AstroDoge
+  changes:
   - message: (ADMIN CHANGE) Admin Ghosts can now pull things without using their hands, like a lizard. They use their li'l ghost tail or something, idk. It'll make certain things as an admin ghost easier.
     type: Tweak
   id: 32
