@@ -152,6 +152,7 @@
     species: Harpy
   - type: Inventory
     speciesId: harpy
+    templateId: digitigrade
     displacements:
       jumpsuit:
         layer:
