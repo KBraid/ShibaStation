@@ -416,15 +416,15 @@
     Laugh:
       collection: HarpyLaugh
     Sneeze:
-      collection: MaleSneezes
+      collection: HarpySneezes
     Cough:
-      collection: MaleCoughs
+      collection: HarpyCoughs
     Sigh:
-      collection: MaleSigh
+      collection: HarpySigh
     Crying:
       collection: HarpyCry
     Whistle:
-      collection: Whistles
+      collection: HarpyWhistles
     Hiss:
       collection: HarpyHisses
     Meow:
@@ -437,26 +437,26 @@
       collection: HarpyPurrs
     Ring:
       collection: HarpyRings
-    HarpyHonk:
-      collection: Honk
-    HarpyPew:
+    Honk:
+      collection: HarpyHonks
+    Pew:
       collection: HarpyPews
-    HarpyBang:
+    Bang:
       collection: HarpyBangs
-    HarpyBeep:
-      collection: Beep
-    HarpyRev:
+    Beep:
+      collection: HarpyBeeps
+    Rev:
       collection: HarpyRevs
-#    Click:
-#      collection: HarpyClicks
+    Click:
+      collection: HarpyClicks
     Chitter:
       collection: HarpyChitter
     Squeak:
       collection: HarpySqueak
-    HarpyCaw:
+    Caw:
       collection: HarpyCaws
-    HarpyChirp:
-      collection: Chirp
+    Chirp:
+      collection: HarpyChirps
     Snarl:
       collection: VulpkaninSnarls
     Bark:

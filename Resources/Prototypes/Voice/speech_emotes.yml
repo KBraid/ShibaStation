@@ -14,28 +14,53 @@
   chatTriggers:
     - scream
     - screams
-    - screams.
-    - screams!
-    - screaming
     - screamed
+    - scream.
+    - screams.
+    - screamed.
+    - scream!
+    - screams!
+    - screamed!
+    - screaming
+    - screaming.
+    - screaming!
     - shriek
     - shrieks
-    - shrieks.
-    - shrieks!
-    - shrieking
     - shrieked
+    - shriek.
+    - shrieks.
+    - shrieked.
+    - shriek!
+    - shrieks!
+    - shrieked!
+    - shrieking
+    - shrieking.
+    - shrieking!
     - screech
     - screeches
-    - screeches.
-    - screeches!
-    - screeching
     - screeched
+    - screech.
+    - screeches.
+    - screeched.
+    - screech!
+    - screeches!
+    - screeched!
+    - screeching
+    - screeching.
+    - screeching!
     - yell
     - yells
-    - yells.
-    - yells!
     - yelled
+    - yell.
+    - yells.
+    - yelled.
+    - yell!
+    - yells!
+    - yelled!
     - yelling
+    - yelling.
+    - yelling!
+
 
 - type: emote
   id: Laugh
@@ -122,6 +147,9 @@
     - sigh.
     - sighs.
     - sighed.
+    - sigh!
+    - sighs!
+    - sighed!
 
 - type: emote
   id: Whistle
@@ -269,6 +297,9 @@
    - clicks
    - clicks.
    - clicks!
+   - clicked
+   - clicked.
+   - clicked!
 
 # hand emotes
 - type: emote
@@ -285,11 +316,17 @@
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
     - clap
+    - clap.
+    - clap!
     - claps
     - claps.
     - claps!
     - clapping
+    - clapping.
+    - clapping!
     - clapped
+    - clapped.
+    - clapped!
 
 - type: emote
   id: Snap
@@ -351,6 +388,12 @@
     - salutes
     - salutes.
     - salutes!
+    - saluted
+    - saluted.
+    - saluted!
+    - saluting
+    - saluting.
+    - saluting!
 
 - type: emote
   id: Gasp
@@ -431,10 +474,10 @@
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
     - chirp
-    - chirp!
     - chirp.
+    - chirp!
     - chirps
-    - churps.
+    - chirps.
     - chirps!
     - chirped
     - chirped.
@@ -457,8 +500,8 @@
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
     - beep
-    - beep!
     - beep.
+    - beep!
     - beeps
     - beeps.
     - beeps!
@@ -565,62 +608,99 @@
 # Harpy
 
 - type: emote
-  id: HarpyRing
+  id: Ring
   name: chat-emote-name-harpyring
   category: Vocal
   chatMessages: [rings.]
   chatTriggers:
+    - ring
     - ring.
+    - ring!
+    - rings
     - rings.
     - rings!
+    - ringing
     - ringing.
+    - ringing!
+    - ringed
     - ringed.
+    - ringed!
 
 - type: emote
-  id: HarpyPew
+  id: Pew
   name: chat-emote-name-harpypew
   category: Vocal
   chatMessages: [pews.]
   chatTriggers:
+    - pew
     - pew.
-    - pews.
     - pew!
+    - pews
+    - pews.
+    - pews!
+    - pewing
+    - pewing.
+    - pewing!
+    - pewed
+    - pewed.
+    - pewed!
 
 - type: emote
-  id: HarpyBang
+  id: Bang
   name: chat-emote-name-harpybang
   category: Vocal
   chatMessages: [bangs.]
   chatTriggers:
-    - bangs.
+    - bang
     - bang.
     - bang!
+    - bangs
+    - bangs.
+    - bangs!
+    - banging
     - banging.
+    - banging!
+    - banged
     - banged.
+    - banged!
 
 - type: emote
-  id: HarpyRev
+  id: Rev
   name: chat-emote-name-harpyrev
   category: Vocal
   chatMessages: [revs.]
   chatTriggers:
-    - revs.
+    - rev
     - rev.
     - rev!
+    - revs
+    - revs.
+    - revs!
     - revving
+    - revving.
+    - revving!
     - revved
+    - revved.
+    - revved!
 
 - type: emote
-  id: HarpyCaw
+  id: Caw
   name: chat-emote-name-harpycaw
   category: Vocal
   chatMessages: [caws.]
   chatTriggers:
+    - caws
     - caws.
+    - caws!
+    - caw
     - caw.
     - caw!
     - cawing
+    - cawing.
+    - cawing!
     - cawed
+    - cawed.
+    - cawed!
 
 #Vulpkanin
 - type: emote
@@ -686,18 +766,18 @@
   category: Vocal
   chatMessages: [howls.]
   chatTriggers:
-  - howl
-  - howl.
-  - howl!
-  - howls
-  - howls.
-  - howls!
-  - howled
-  - howled.
-  - howled!
-  - howling
-  - howling.
-  - howling!
+    - howl
+    - howl.
+    - howl!
+    - howls
+    - howls.
+    - howls!
+    - howled
+    - howled.
+    - howled!
+    - howling
+    - howling.
+    - howling!
 
 # Felinids
 
@@ -708,11 +788,18 @@
   category: Vocal
   chatMessages: [hisses.]
   chatTriggers:
+    - hiss
     - hiss.
+    - hiss!
+    - hisses
     - hisses.
     - hisses!
-    - hissing.
+    - hissed
     - hissed.
+    - hissed!
+    - hissing
+    - hissing.
+    - hissing!
 
 - type: emote
   id: Meow
@@ -720,25 +807,42 @@
   category: Vocal
   chatMessages: [meows.]
   chatTriggers:
+    - meow
     - meow.
     - meow!
+    - meows
     - meows.
-    - meows~
     - meows!
-    - meowing.
+    - meowed
     - meowed.
+    - meowed!
+    - meowing
+    - meowing.
+    - meowing!
+    - miau
     - miau.
+    - miau!
+    - miaus
     - miaus.
     - miaus!
-    - nya.
-    - nyas.
-    - nyas!
-    - mraow.
-    - mraow!
-    - mraow~
-    - mraows.
-    - mraows!
-    - mraows~
+    - miaued
+    - miaued.
+    - miaued!
+    - miauing
+    - miauing.
+    - miauing!
+    - miaow
+    - miaow.
+    - miaow!
+    - miaows
+    - miaows.
+    - miaows!
+    - miaowed
+    - miaowed.
+    - miaowed!
+    - miaowing
+    - miaowing.
+    - miaowing!
 
 - type: emote
   id: Mew
@@ -746,14 +850,18 @@
   category: Vocal
   chatMessages: [mews.]
   chatTriggers:
+    - mew
     - mew.
     - mew!
-    - mew~
+    - mews
     - mews.
     - mews!
-    - mews~
-    - mewing.
+    - mewed
     - mewed.
+    - mewed!
+    - mewing
+    - mewing.
+    - mewing!
 
 - type: emote
   id: Growl
@@ -761,11 +869,18 @@
   category: Vocal
   chatMessages: [growls.]
   chatTriggers:
+    - growl
     - growl.
+    - growl!
+    - growls
     - growls.
     - growls!
-    - growling.
+    - growled
     - growled.
+    - growled!
+    - growling
+    - growling.
+    - growling!
 
 - type: emote
   id: Purr
@@ -773,9 +888,15 @@
   category: Vocal
   chatMessages: [purrs.]
   chatTriggers:
+    - purr
     - purr.
+    - purr!
+    - purrs
     - purrs.
-    - purrs~
     - purrs!
-    - purring.
+    - purred
     - purred.
+    - purred!
+    - purring
+    - purring.
+    - purring!
