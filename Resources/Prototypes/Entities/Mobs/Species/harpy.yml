@@ -19,15 +19,18 @@
       "Acoustic": {24: 0}
       "Flute": {73: 0}
       "Sax": {66: 0}
+      "Piano": {1: 0}
+      "Church Organ": {19: 0}
+      "Harp": {46: 0}
   - type: UserInterface
     interfaces:
-      - key: enum.InstrumentUiKey.Key
+      enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
-      - key: enum.VoiceMaskUIKey.Key
+      enum.VoiceMaskUIKey.Key:
         type: VoiceMaskBoundUserInterface
-      - key: enum.HumanoidMarkingModifierKey.Key
+      enum.HumanoidMarkingModifierKey.Key:
         type: HumanoidMarkingModifierBoundUserInterface
-      - key: enum.StrippingUiKey.Key
+      enum.StrippingUiKey.Key:
         type: StrippableBoundUserInterface
   - type: Sprite
     scale: 0.9, 0.9
@@ -66,11 +69,10 @@
       - map: [ "enum.HumanoidVisualLayers.Tail" ]
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
-      - map: [ "clownedon" ] # Dynamically generated
+      - map: [ "clownedon" ]
         sprite: "Effects/creampie.rsi"
         state: "creampie_human"
         visible: false
-# Yes, RArm has to be down here
       - map: [ "enum.HumanoidVisualLayers.RArm" ]
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
@@ -83,7 +85,7 @@
   - type: HumanoidAppearance
     species: Harpy
   - type: Fixtures
-    fixtures: # TODO: This needs a second fixture just for mob collisions.
+    fixtures: 
       fix1:
         shape:
           !type:PhysShapeCircle
@@ -122,9 +124,19 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.5
     baseSprintSpeed: 5.0
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
     templateId: digitigrade
+    displacements:
+      jumpsuit:
+        layer:
+          sprite: Mobs/Species/Harpy/displacement.rsi
+          state: jumpsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
   - type: HarpyVisuals
   - type: UltraVision
     
@@ -138,8 +150,18 @@
   components:
   - type: HumanoidAppearance
     species: Harpy
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
+    displacements:
+      jumpsuit:
+        layer:
+          sprite: Mobs/Species/Harpy/displacement.rsi
+          state: jumpsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
   - type: Sprite
     scale: 0.9, 0.9
     layers:
@@ -187,21 +209,9 @@
   id: ActionHarpyPlayMidi
   name: Play MIDI
   description: Sing your heart out! Right click yourself to set an instrument.
-  noSpawn: true
   components:
   - type: InstantAction
     checkCanInteract: false
     icon: Interface/Actions/harpy_sing.png
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
-
-- type: entity
-  id: ActionSyrinxChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: Interface/Actions/harpy_syrinx.png
-    itemIconStyle: BigAction
-    event: !type:VoiceMaskSetNameEvent
