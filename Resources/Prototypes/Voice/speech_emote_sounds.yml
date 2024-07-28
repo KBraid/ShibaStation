@@ -463,6 +463,8 @@
       collection: VulpkaninBarks
     Whine:
       collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowl
 
 - type: emoteSounds
   id: MaleVulpkanin
