@@ -4,5 +4,7 @@
   suffix: Urisst' Mzhand
   parent: BaseMobReptilian
   id: MobReptilian
+  components:
+    - type: SolutionScanner # Reptilians can innately tell what a substance is due to their amazing sense of smell, of course!
 
 #Weh

@@ -1,7 +1,13 @@
 Entries:
 - author: AstroDoge
   changes:
-  - message: Lots of tweaks to chat emotes; you should be able to trigger more of them now with different punctuation!
+  - message: Reptilians and Vulpkanin can examine solutions innately, like wearing the chem analyzer or beer goggles. Chalk it up to their amazing sense of smell!
+    type: Tweak
+  id: 37
+  time: '2024-07-28T08:30:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Lots of fixes to chat emotes; you should be able to trigger more of them now with different punctuation!
     type: Fix
   id: 36
   time: '2024-07-28T07:30:00.337Z'
@@ -13,13 +19,13 @@ Entries:
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Like so much stuff related to harpies I can't even. Hands, default markings, inventory loadouts, etc.
+  - message: Fixed like so much stuff related to harpies I can't even. Hands, default markings, inventory loadouts, etc.
     type: Fix
   id: 34
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: BIRD UP! 🐦 Harpies have been added and are WORKING! EVERYTHING! KWEH!
+  - message: BIRD UP! 🐦 Harpies have been added and they are working! EVERYTHING! KWEH!
     type: Add
   id: 33
   time: '2024-07-28T07:30:00.337Z'

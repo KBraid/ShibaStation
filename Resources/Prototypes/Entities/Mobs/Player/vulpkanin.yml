@@ -29,3 +29,4 @@
       damageRecovery:
         types:
           Asphyxiation: -1.0
+    - type: SolutionScanner # Vulps can innately tell what a substance is due to their amazing sense of smell, of course!
