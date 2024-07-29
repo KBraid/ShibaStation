@@ -1,6 +1,12 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Harpy 'normal' emotes are standardised (laugh, cry, etc) however they can still mimic other species emotes. Try to 'laugh like a vox'!
+    type: Tweak
+  id: 38
+  time: '2024-07-29T09:40:00.337Z'
+- author: AstroDoge
+  changes:
   - message: Reptilians and Vulpkanin can examine solutions innately, like wearing the chem analyzer or beer goggles. Chalk it up to their amazing sense of smell!
     type: Tweak
   id: 37

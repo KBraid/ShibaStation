@@ -1,6 +1,18 @@
 # Names
 chat-emote-name-scream = Scream
+chat-emote-name-screamlikecat = Scream Like Cat
+chat-emote-name-screamlikemonkey = Scream Like Monkey
+chat-emote-name-screamlikemoth = Scream Like Moth
+chat-emote-name-screamlikeskeleton = Scream Like Skeleton
+chat-emote-name-screamlikelizard = Scream Like Lizard
+chat-emote-name-screamlikewilhelm = Scream Like Wilhelm
+chat-emote-name-screamlikevox = Scream Like Vox
 chat-emote-name-laugh = Laugh
+chat-emote-name-laughlikediona = Laugh Like Diona
+chat-emote-name-laughlikelizard = Laugh Like Lizard
+chat-emote-name-laughlikeferret = Laugh Like Ferret
+chat-emote-name-laughlikemoth = Laugh Like Moth
+chat-emote-name-laughlikevox = Laugh Like Vox
 chat-emote-name-honk = Honk
 chat-emote-name-sigh = Sigh
 chat-emote-name-whistle = Whistle
@@ -37,7 +49,19 @@ chat-emote-name-felinidgrowl = Growl
 
 # Message
 chat-emote-msg-scream = screams!
+chat-emote-msg-screamlikecat = screams like a cat!
+chat-emote-msg-screamlikemonkey = screams like a monkey!
+chat-emote-msg-screamlikemoth = screams like a moth!
+chat-emote-msg-screamlikeskeleton = screams like a skeleton!
+chat-emote-msg-screamlikelizard = screams like a lizard!
+chat-emote-msg-screamlikewilhelm = screams like Wilhelm!
+chat-emote-msg-screamlikevox = screams like a vox!
 chat-emote-msg-laugh = laughs.
+chat-emote-msg-laughlikediona = laughs like a diona.
+chat-emote-msg-laughlikelizard = laughs like a lizard.
+chat-emote-msg-laughlikeferret = laughs like a ferret.
+chat-emote-msg-laughlikemoth = laughs like a moth.
+chat-emote-msg-laughlikevox = laughs like a vox.
 chat-emote-msg-honk = honks.
 chat-emote-msg-sigh = sighs.
 chat-emote-msg-whistle = whistles.
