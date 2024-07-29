@@ -1,6 +1,12 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Harpies can lay eggs. Males too. Don't ask.
+    type: Add
+  id: 39
+  time: '2024-07-29T11:05:00.337Z'
+- author: AstroDoge
+  changes:
   - message: Harpy 'normal' emotes are standardised (laugh, cry, etc) however they can still mimic other species emotes. Try to 'laugh like a vox'!
     type: Tweak
   id: 38

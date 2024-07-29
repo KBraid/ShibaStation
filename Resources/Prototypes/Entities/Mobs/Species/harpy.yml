@@ -140,6 +140,13 @@
               parameterUV: displacementUV
   - type: HarpyVisuals
   - type: UltraVision
+  - type: EggLayer
+    eggSpawn:
+    - id: FoodEgg
+    hungerUsage: 20
+    eggLayCooldownMax: 300
+    eggLayCooldownMin: 120
+    eggLayAction: ActionHarpyLayEgg
     
 - type: entity
   save: false

@@ -275,6 +275,16 @@
     event: !type:EggLayInstantActionEvent
 
 - type: entity
+  id: ActionHarpyLayEgg
+  name: Lay harpy egg
+  description: Uses a little hunger to lay an egg.
+  components:
+  - type: InstantAction
+    icon: { sprite: Objects/Consumable/Food/egg.rsi, state: icon }
+    useDelay: 10
+    event: !type:EggLayInstantActionEvent
+
+- type: entity
   id: ActionSleep
   name: Sleep
   description: Go to sleep.
