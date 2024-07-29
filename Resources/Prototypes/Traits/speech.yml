@@ -8,6 +8,7 @@
   components:
   - type: Accentless
     removes:
+    - type: SkeletonAccent
     - type: LizardAccent
     - type: MothAccent
     - type: ReplacementAccent
