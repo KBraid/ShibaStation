@@ -10,7 +10,7 @@
   - type: StationEvent
     startColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Announcements/ShibaAI/cargo_gifts.ogg
   - type: CargoGiftsRule
     sender: cargo-gift-default-sender
 

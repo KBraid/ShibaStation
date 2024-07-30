@@ -35,7 +35,9 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Announcements/ShibaAI/sci_anomdetected.ogg
+      params:
+       volume: -2
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -51,7 +53,9 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Announcements/ShibaAI/sci_artidetected.ogg
+      params:
+       volume: -2
     weight: 8
     duration: 35
   - type: BluespaceArtifactRule
@@ -220,8 +224,14 @@
   - type: StationEvent
     startAnnouncement: station-event-gas-leak-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_gasleakstart.ogg
+      params:
+       volume: -2
     endAnnouncement: station-event-gas-leak-end-announcement
+    endAudio:
+      path: /Audio/Announcements/ShibaAI/gen_gasleakend.ogg
+      params:
+       volume: -2
     weight: 8
   - type: GasLeakRule
 
@@ -243,7 +253,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     earliestStart: 15
     weight: 6
     duration: 50
@@ -266,7 +278,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     earliestStart: 15
     weight: 6
     duration: 50
@@ -292,7 +306,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     weight: 6
     duration: 50
   - type: VentCrittersRule
@@ -311,9 +327,9 @@
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
-      path: /Audio/Announcements/power_off.ogg
+      path: /Audio/Announcements/ShibaAI/gen_poweroff.ogg
       params:
-       volume: -4
+       volume: -2
     duration: 20
     maxDuration: 60
   - type: PowerGridCheckRule
@@ -327,7 +343,13 @@
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_solarflarestart.ogg
+      params:
+       volume: -2
+    endAudio:
+      path: /Audio/Announcements/ShibaAI/gen_solarflareend.ogg
+      params:
+       volume: -2
     duration: 120
     maxDuration: 240
   - type: SolarFlareRule
@@ -367,7 +389,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     earliestStart: 20
     minimumPlayers: 15
     weight: 5
@@ -388,7 +412,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     earliestStart: 20
     minimumPlayers: 15
     weight: 5
@@ -405,7 +431,9 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/gen_ventcritters.ogg
+      params:
+       volume: -2
     earliestStart: 20
     minimumPlayers: 20
     weight: 1.5
@@ -494,7 +522,9 @@
     maxOccurrences: 1 # can only happen once per round
     startAnnouncement: station-event-communication-interception
     startAudio:
-      path: /Audio/Announcements/intercept.ogg
+      path: /Audio/Announcements/ShibaAI/sec_sleeperagents.ogg
+      params:
+       volume: -2
     duration: null # the rule has to last the whole round not 1 second
   - type: AlertLevelInterceptionRule
   - type: AntagSelection
@@ -534,7 +564,9 @@
   - type: StationEvent
     startAnnouncement: station-event-immovable-rod-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      path: /Audio/Announcements/ShibaAI/eng_rodincoming.ogg
+      params:
+       volume: -2
     weight: 3.5
     duration: 1
     earliestStart: 30
@@ -571,6 +603,11 @@
   id: IonStorm
   components:
   - type: StationEvent
+    startAnnouncement: station-event-ion-storm-start-announcement
+    startAudio:
+      path: /Audio/Announcements/ShibaAI/sci_ionstorm.ogg
+      params:
+       volume: -2
     weight: 8
     reoccurrenceDelay: 20
     duration: 1
