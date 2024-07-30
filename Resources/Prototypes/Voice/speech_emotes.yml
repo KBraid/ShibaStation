@@ -333,6 +333,29 @@
     - laughing like a moth!
 
 - type: emote
+  id: LaughLikeLizard
+  name: chat-emote-name-laughlikelizard
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikelizard"]
+  chatTriggers:
+    - laugh like a lizard
+    - laugh like a lizard.
+    - laugh like a lizard!
+    - laughs like a lizard
+    - laughs like a lizard.
+    - laughs like a lizard!
+    - laughed like a lizard
+    - laughed like a lizard.
+    - laughed like a lizard!
+    - laughing like a lizard
+    - laughing like a lizard.
+    - laughing like a lizard!
+
+- type: emote
   id: LaughLikeVox
   name: chat-emote-name-laughlikevox
   category: Vocal
