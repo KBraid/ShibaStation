@@ -96,6 +96,7 @@
       Female: FemaleVulpkanin
       Unsexed: MaleVulpkanin
   - type: DogVision
+  - type: NoShoesSilentFootsteps # Soft pawpads eliminate footstep sounds.
 
 - type: entity
   save: false
