@@ -50,7 +50,6 @@
   - Keep a randomly selected traitor alive.
   - Escape on the evacuation shuttle alive and uncuffed.
   - Help a randomly selected traitor finish half of their objectives.
-  - Die a glorious death.
   - Steal the Captain's [color=#a4885c]ID Card[/color], [color=#a4885c]Antique Laser Pistol[/color], [color=#a4885c]Jetpack[/color], or [color=#a4885c]Nuke Disk[/color].
   <Box>
     <GuideEntityEmbed Entity="CaptainIDCard" Caption="Captain's ID Card"/>
