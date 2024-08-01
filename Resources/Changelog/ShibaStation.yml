@@ -1,6 +1,18 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Barefoot Vulpkanin make no footstep sounds; sneaky soft paws.
+    type: Tweak
+  id: 43
+  time: '2024-07-31T04:42:00.337Z'
+- author: AstroDoge
+  changes:
+  - message: Added (and replaced) a whole bunch of announcements with custom recorded audio! There's more to come, but most announcements are covered now.
+    type: Add
+  id: 42
+  time: '2024-07-30T05:52:00.337Z'
+- author: AstroDoge
+  changes:
   - message: Added (replaced) a new poster! See if you can notice it~
     type: Add
   id: 41
