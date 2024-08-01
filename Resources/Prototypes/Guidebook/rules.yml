@@ -1,4 +1,4 @@
-﻿- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
+- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
   id: DefaultRuleset
   name: guide-entry-rules
   ruleEntry: true
@@ -59,84 +59,84 @@
   name: guide-entry-rules-c1
   ruleEntry: true
   priority: 1
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1Admins.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1MinAge.xml"
 
 - type: guideEntry
   id: RuleC2
   name: guide-entry-rules-c2
   ruleEntry: true
   priority: 2
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2DBAD.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2Admins.xml"
 
 - type: guideEntry
   id: RuleC3
   name: guide-entry-rules-c3
   ruleEntry: true
   priority: 3
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3NoHate.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3DBAC.xml"
 
 - type: guideEntry
   id: RuleC4
   name: guide-entry-rules-c4
   ruleEntry: true
   priority: 4
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4NoERP.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4BeAwesome.xml"
 
 - type: guideEntry
   id: RuleC5
   name: guide-entry-rules-c5
   ruleEntry: true
   priority: 5
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5Metacomms.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5ERPBut.xml"
 
 - type: guideEntry
   id: RuleC6
   name: guide-entry-rules-c6
   ruleEntry: true
   priority: 6
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6BanEvasion.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6Metacomms.xml"
 
 - type: guideEntry
   id: RuleC7
   name: guide-entry-rules-c7
   ruleEntry: true
   priority: 7
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7EnglishOnly.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7BanEvasion.xml"
 
 - type: guideEntry
   id: RuleC8
   name: guide-entry-rules-c8
   ruleEntry: true
   priority: 8
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8Exploits.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8EnglishOnly.xml"
 
 - type: guideEntry
   id: RuleC9
   name: guide-entry-rules-c9
   ruleEntry: true
   priority: 9
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Multikey.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Exploits.xml"
 
 - type: guideEntry
   id: RuleC10
   name: guide-entry-rules-c10
   ruleEntry: true
   priority: 10
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10AHelp.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10Multikey.xml"
 
 - type: guideEntry
   id: RuleC11
   name: guide-entry-rules-c11
   ruleEntry: true
   priority: 11
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11AhelpThreats.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11AHelp.xml"
 
 - type: guideEntry
   id: RuleC12
   name: guide-entry-rules-c12
   ruleEntry: true
   priority: 12
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12MinAge.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12AhelpThreats.xml"
 
 - type: guideEntry
   id: RuleC13

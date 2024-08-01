@@ -1,13 +1,27 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Traitors are now no longer expected to 'die a glorious death'. The Syndicate
+      wants all agents back ALIVE.
+    type: Tweak
+  id: 45
+  time: '2024-08-01T10:05:02.074335'
+- author: AstroDoge
+  changes:
+  - message: Rules have been added/updated. Time to polish the banhammer.
+    type: Add
+  id: 44
+  time: '2024-08-01T10:06:27.624925'
+- author: AstroDoge
+  changes:
   - message: Barefoot Vulpkanin make no footstep sounds; sneaky soft paws.
     type: Tweak
   id: 43
   time: '2024-07-31T04:42:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Added (and replaced) a whole bunch of announcements with custom recorded audio! There's more to come, but most announcements are covered now.
+  - message: Added (and replaced) a whole bunch of announcements with custom recorded
+      audio! There's more to come, but most announcements are covered now.
     type: Add
   id: 42
   time: '2024-07-30T05:52:00.337Z'
@@ -31,79 +45,97 @@ Entries:
   time: '2024-07-29T11:05:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Harpy 'normal' emotes are standardised (laugh, cry, etc) however they can still mimic other species emotes. Try to 'laugh like a vox'!
+  - message: Harpy 'normal' emotes are standardised (laugh, cry, etc) however they
+      can still mimic other species emotes. Try to 'laugh like a vox'!
     type: Tweak
   id: 38
   time: '2024-07-29T09:40:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Reptilians and Vulpkanin can examine solutions innately, like wearing the chem analyzer or beer goggles. Chalk it up to their amazing sense of smell!
+  - message: Reptilians and Vulpkanin can examine solutions innately, like wearing
+      the chem analyzer or beer goggles. Chalk it up to their amazing sense of smell!
     type: Tweak
   id: 37
   time: '2024-07-28T08:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Lots of fixes to chat emotes; you should be able to trigger more of them now with different punctuation!
+  - message: Lots of fixes to chat emotes; you should be able to trigger more of them
+      now with different punctuation!
     type: Fix
   id: 36
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Harpies can't wear shoes - the shoe slot has been removed. Let them talons breathe!
+  - message: Harpies can't wear shoes - the shoe slot has been removed. Let them talons
+      breathe!
     type: Tweak
   id: 35
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Fixed like so much stuff related to harpies I can't even. Hands, default markings, inventory loadouts, etc.
+  - message: Fixed like so much stuff related to harpies I can't even. Hands, default
+      markings, inventory loadouts, etc.
     type: Fix
   id: 34
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: BIRD UP! 🐦 Harpies have been added and they are working! EVERYTHING! KWEH!
+  - message: BIRD UP! 🐦 Harpies have been added and they are working! EVERYTHING!
+      KWEH!
     type: Add
   id: 33
   time: '2024-07-28T07:30:00.337Z'
 - author: AstroDoge
   changes:
-  - message: (ADMIN CHANGE) Admin Ghosts can now pull things without using their hands, like a lizard. They use their li'l ghost tail or something, idk. It'll make certain things as an admin ghost easier.
+  - message: (ADMIN CHANGE) Admin Ghosts can now pull things without using their hands,
+      like a lizard. They use their li'l ghost tail or something, idk. It'll make
+      certain things as an admin ghost easier.
     type: Tweak
   id: 32
   time: '2024-07-27T20:00:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Rat Kings remain FREE AGENT, however their ghost role rules now make it clear that they are still allowed to be KOS by the crew in addition to being considered ANTAGONIST if they have more than 3 rat servants.
+  - message: Rat Kings remain FREE AGENT, however their ghost role rules now make
+      it clear that they are still allowed to be KOS by the crew in addition to being
+      considered ANTAGONIST if they have more than 3 rat servants.
     type: Tweak
   id: 31
   time: '2024-07-27T20:00:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Closet and Biker Skeletons are now NON-ANTAGONIST ghost roles. Pirate Skeleton remains FREE AGENT. Their Ghost Role rulesets and mob descriptions have been updated to reflect this. Closet/Biker Skeletons acting like antags are now subject to the Self-Antag rule.
+  - message: Closet and Biker Skeletons are now NON-ANTAGONIST ghost roles. Pirate
+      Skeleton remains FREE AGENT. Their Ghost Role rulesets and mob descriptions
+      have been updated to reflect this. Closet/Biker Skeletons acting like antags
+      are now subject to the Self-Antag rule.
     type: Tweak
   id: 30
   time: '2024-07-27T20:00:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Enabled Worldgen on the server, meaning that more wrecks for salvage will spawn!
+  - message: Enabled Worldgen on the server, meaning that more wrecks for salvage
+      will spawn!
     type: Tweak
   id: 29
   time: '2024-07-23T06:20:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Fixed broken shuttle names (salvage shuttle, ATS) from an upstream change. Salvage shuttle will have a random name each round! Feel free to recommend new funny names in the Discord!
+  - message: Fixed broken shuttle names (salvage shuttle, ATS) from an upstream change.
+      Salvage shuttle will have a random name each round! Feel free to recommend new
+      funny names in the Discord!
     type: Fix
   id: 28
   time: '2024-07-23T06:20:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Added Github, Issues, Discord and a Website (totally getting removed later) links!
+  - message: Added Github, Issues, Discord and a Website (totally getting removed
+      later) links!
     type: Add
   id: 27
   time: '2024-07-23T06:20:00.337Z'
 - author: AstroDoge
   changes:
-  - message: Added Blessium, a precursor to some upcoming changes to the Chaplain role...
+  - message: Added Blessium, a precursor to some upcoming changes to the Chaplain
+      role...
     type: Add
   id: 26
   time: '2024-07-22T21:02:01.337Z'
@@ -121,37 +153,43 @@ Entries:
   time: '2024-07-22T17:29:11.337Z'
 - author: AstroDoge
   changes:
-  - message: FINALLY added a ShibaStation changelog! Now I just have to remember to update it...
+  - message: FINALLY added a ShibaStation changelog! Now I just have to remember to
+      update it...
     type: Add
   id: 23
   time: '2024-07-20T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Changed the Italian accent from a word-replacement accent to a full blown component-driven accent. It's molto bene!
+  - message: Changed the Italian accent from a word-replacement accent to a full blown
+      component-driven accent. It's molto bene!
     type: Tweak
   id: 22
   time: '2024-07-18T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Added lots more German cognates to the German accent, hopefully it's not too much for people to understand...
+  - message: Added lots more German cognates to the German accent, hopefully it's
+      not too much for people to understand...
     type: Add
   id: 21
   time: '2024-07-18T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: New species weren't issued a survival box, now they are. That's a PR disaster averted...
+  - message: New species weren't issued a survival box, now they are. That's a PR
+      disaster averted...
     type: Fix
   id: 20
   time: '2024-07-18T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Various emotes for all species have had their trigger words adjusted/added. Now you can sneeze in your friends face on command!
+  - message: Various emotes for all species have had their trigger words adjusted/added.
+      Now you can sneeze in your friends face on command!
     type: Tweak
   id: 19
   time: '2024-07-18T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Traits menu has been adjusted, new traits added from Delta-V's species code and certain nomenclature changed to be more accurate/clear.
+  - message: Traits menu has been adjusted, new traits added from Delta-V's species
+      code and certain nomenclature changed to be more accurate/clear.
     type: Tweak
   id: 18
   time: '2024-07-17T00:00:00.0000000+00:00'
@@ -163,31 +201,37 @@ Entries:
   time: '2024-07-16T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Ported over A LOT of the custom species code from Delta-V pre-AGPLv3 license change manually. Honestly it's way too much to cover in the changelog - see the git commits if you're really that interested.'
+  - message: Ported over A LOT of the custom species code from Delta-V pre-AGPLv3
+      license change manually. Honestly it's way too much to cover in the changelog
+      - see the git commits if you're really that interested.'
     type: Add
   id: 16
   time: '2024-07-16T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Maid uniforms are now selectable in the Jani loadout as well as available normally in the JaniDrobe and can be printed in the uniform lathe.
+  - message: Maid uniforms are now selectable in the Jani loadout as well as available
+      normally in the JaniDrobe and can be printed in the uniform lathe.
     type: Add
   id: 15
   time: '2024-07-15T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: AI art for the lobby, replacing the default stuff. It's purely temporary but is "good enough" for now.
+  - message: AI art for the lobby, replacing the default stuff. It's purely temporary
+      but is "good enough" for now.
     type: Add
   id: 14
   time: '2024-07-14T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Reach now has better role slots for HoDs and also an actual science team since there wasn't one? Dafuq.
+  - message: Reach now has better role slots for HoDs and also an actual science team
+      since there wasn't one? Dafuq.
     type: Tweak
   id: 13
   time: '2024-07-14T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Lowered some min player count requirements for maps due to current low pop situation.
+  - message: Lowered some min player count requirements for maps due to current low
+      pop situation.
     type: Tweak
   id: 12
   time: '2024-07-14T00:00:00.0000000+00:00'
@@ -199,7 +243,8 @@ Entries:
   time: '2024-07-13T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Reduced the probability and length of the Power Grid Check event to be less annoying on low pop without totally nerfing its usefulness for tiding.
+  - message: Reduced the probability and length of the Power Grid Check event to be
+      less annoying on low pop without totally nerfing its usefulness for tiding.
     type: Tweak
   id: 10
   time: '2024-07-13T00:00:00.0000000+00:00'
@@ -247,7 +292,8 @@ Entries:
   time: '2024-07-11T00:00:00.0000000+00:00'
 - author: AstroDoge
   changes:
-  - message: Skeletons can be selected at round start as a species - for testing and giggles.
+  - message: Skeletons can be selected at round start as a species - for testing and
+      giggles.
     type: Add
   id: 2
   time: '2024-07-09T00:00:00.0000000+00:00'
