@@ -1,6 +1,12 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Added missing Vulp/Harpy helmet/hat graphics.
+    type: Add
+  id: 46
+  time: '2024-08-02T02:36:25.440847'
+- author: AstroDoge
+  changes:
   - message: Traitors are now no longer expected to 'die a glorious death'. The Syndicate
       wants all agents back ALIVE.
     type: Tweak
