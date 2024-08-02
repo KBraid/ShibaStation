@@ -1,0 +1,2 @@
+@ECHO off
+python3 update_shibastation_changelog.py
