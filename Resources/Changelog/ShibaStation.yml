@@ -1,6 +1,13 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Fixed harpies not being able to wear anything. Now they can wear clothes.
+      No more naked birbs.
+    type: fix
+  id: 47
+  time: '2024-08-03T23:11:07.234192'
+- author: AstroDoge
+  changes:
   - message: Added missing Vulp/Harpy helmet/hat graphics.
     type: Add
   id: 46
