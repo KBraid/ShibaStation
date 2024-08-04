@@ -283,3 +283,18 @@
     collection: FootstepSticky
     params:
       volume: 6
+
+- type: reagent
+  id: PussyJuice
+  name: reagent-name-pussy-juice
+  group: Biological
+  desc: reagent-desc-pussy-juice
+  physicalDesc: reagent-physical-desc-translucent
+  slippery: true
+  flavor: arousing
+  color: "#fff5ee"
+  recognizable: true
+  footstepSound:
+    collection: FootstepBlood
+    params:
+      volume: 6

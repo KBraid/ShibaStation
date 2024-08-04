@@ -185,6 +185,11 @@
   description: flavor-base-slightly-salty
 
 - type: flavor
+  id: arousing
+  flavorType: Base
+  description: flavor-base-arousing
+
+- type: flavor
   id: mustard
   flavorType: Complex
   description: flavor-complex-mustard

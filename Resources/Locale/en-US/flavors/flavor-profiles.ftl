@@ -51,6 +51,7 @@ flavor-base-horrible = horrible
 flavor-base-terrible = terrible
 flavor-base-mindful = mindful
 flavor-base-slightly-salty = slightly salty
+flavor-base-arousing = arousing
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.

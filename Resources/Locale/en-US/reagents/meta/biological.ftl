@@ -33,3 +33,6 @@ reagent-desc-grey-matter = Thought juice, the stuff that leaks out of your ears.
 
 reagent-name-semen = semen
 reagent-desc-semen = Penile ejaculate, may cause pregnancy.
+
+reagent-name-pussy-juice = vaginal secretion
+reagent-desc-pussy-juice = Nature's lubricant and a danger to panties across the galaxy.
