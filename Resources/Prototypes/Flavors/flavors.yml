@@ -1113,3 +1113,18 @@
   id: paintthinner
   flavorType: Complex
   description: flavor-complex-paint-thinner
+
+- type: flavor
+  id: chemicalx
+  flavorType: Complex
+  description: flavor-complex-chemical-x
+
+- type: flavor
+  id: bluberinol
+  flavorType: Complex
+  description: flavor-complex-bluberinol
+
+- type: flavor
+  id: pure-sex
+  flavorType: Complex
+  description: flavor-complex-pure-sex

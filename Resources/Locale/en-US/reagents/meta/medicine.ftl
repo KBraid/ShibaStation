@@ -141,3 +141,24 @@ reagent-desc-mannitol = Efficiently restores brain damage.
 
 reagent-name-psicodine = psicodine
 reagent-desc-psicodine = Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage.
+
+reagent-name-mamolactin = mamolactin
+reagent-desc-mamolactin = A lactation inducing chemical originally designed to assist with those struggling to breastfeed. Often found on the black market for other purposes.
+
+reagent-name-mamolactin-x = mamolactin X
+reagent-desc-mamolactin-x = Mamolactin treated with Chemical X. Causes the product to itself contain amounts of Mamolactin, creating a contagious effect.
+
+reagent-name-mamolactin-o = mamolactin Ω
+reagent-desc-mamolactin-o = Mamolactin X treated with more Chemical X and Omnizine. Rather than a contagion, it now imbues the product with small amounts of Omnizine.
+
+reagent-name-androvitaline = androvitaline
+reagent-desc-androvitaline = Originally designed to assist in boosting fertility and sperm production, this medicine has found more use in sordid affairs.
+
+reagent-name-androvitaline-x = androvitaline X
+reagent-desc-androvitaline-x = Androvitaline treated with Chemical X. Causes the product to itself contain amounts of Androvitaline, creating a contagious effect.
+
+reagent-name-androvitaline-o = androvitaline Ω
+reagent-desc-androvitaline-o = Androvitaline X treated with more Chemical X and Omnizine. Rather than a contagion, it now imbues the product with small amounts of Omnizine.
+
+reagent-name-ovigenix = ovigenix
+reagent-desc-ovigenix = A heavily regulated egg-production booster intended for hens. However, an accident in a lab revealed it has potent and transformative effects in sapient species too.

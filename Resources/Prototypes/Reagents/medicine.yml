@@ -1284,3 +1284,66 @@
         - "psicodine-effect-anxieties-wash-away"
         - "psicodine-effect-at-peace"
         probability: 0.2
+
+- type: reagent
+  id: Mamolactin # Make milkers milky
+  name: reagent-name-mamolactin
+  group: Medicine
+  desc: reagent-desc-mamolactin
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: medicine
+  color: "#ead1dc"
+
+- type: reagent
+  id: MamolactinX # Make milkers milky and contagious
+  name: reagent-name-mamolactin-x
+  group: Medicine
+  desc: reagent-desc-mamolactin-x
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: medicine
+  color: "#d5a6bd"
+
+- type: reagent
+  id: MamolactinO # Healing milk, yumby
+  name: reagent-name-mamolactin-o
+  group: Medicine
+  desc: reagent-desc-mamolactin-o
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: medicine
+  color: "#c27ba0"
+
+- type: reagent
+  id: Androvitaline # No low sperm counts for you
+  name: reagent-name-androvitaline
+  group: Medicine
+  desc: reagent-desc-androvitaline
+  physicalDesc: reagent-physical-desc-viscous
+  flavor: medicine
+  color: "#b6d7a8"
+
+- type: reagent
+  id: AndrovitalineX # No low sperm counts for you, but contagious
+  name: reagent-name-androvitaline-x
+  group: Medicine
+  desc: reagent-desc-androvitaline-x
+  physicalDesc: reagent-physical-desc-viscous
+  flavor: medicine
+  color: "#93c47d"
+
+- type: reagent
+  id: AndrovitalineO # Healing sperm, y-yumby?
+  name: reagent-name-androvitaline-o
+  group: Medicine
+  desc: reagent-desc-androvitaline-o
+  physicalDesc: reagent-physical-desc-viscous
+  flavor: medicine
+  color: "#6aa84f"
+
+- type: reagent
+  id: Ovigenix # No hens? No problem.
+  name: reagent-name-ovigenix
+  group: Medicine
+  desc: reagent-desc-ovigenix
+  physicalDesc: reagent-physical-desc-viscous
+  flavor: medicine
+  color: "#f1c232"

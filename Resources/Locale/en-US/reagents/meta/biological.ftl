@@ -36,3 +36,6 @@ reagent-desc-semen = Penile ejaculate, may cause pregnancy.
 
 reagent-name-pussy-juice = vaginal secretion
 reagent-desc-pussy-juice = Nature's lubricant and a danger to panties across the galaxy.
+
+reagent-name-pheromones = pheromones
+reagent-desc-pheromones = A chemical signal that triggers an arousal response. "Accidental" exposure seems common in Shiba Sector.

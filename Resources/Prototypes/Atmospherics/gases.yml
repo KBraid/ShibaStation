@@ -1,4 +1,4 @@
-﻿- type: gas
+- type: gas
   id: 0
   name: gases-oxygen
   specificHeat: 20
@@ -100,3 +100,16 @@
   color: 3a758c
   reagent: Frezon
   pricePerMole: 3
+
+- type: gas
+  id: 9
+  name: gases-pheromones
+  specificHeat: 40
+  heatCapacityRatio: 1.33
+  molarMass: 18
+  gasOverlaySprite: /Textures/Effects/atmospherics.rsi
+  gasOverlayState: miasma
+  gasMolesVisible: 0.8
+  color: d5a6bd
+  reagent: Pheromones
+  pricePerMole: 1.5

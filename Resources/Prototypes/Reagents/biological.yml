@@ -298,3 +298,16 @@
     collection: FootstepBlood
     params:
       volume: 6
+
+- type: reagent
+  id: Pheromones
+  name: reagent-name-pheromones
+  group: Biological
+  desc: reagent-desc-pheromones
+  physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: pure-sex
+  color: "#d5a6bd"
+  footstepSound:
+    collection: FootstepSticky
+    params:
+      volume: 6

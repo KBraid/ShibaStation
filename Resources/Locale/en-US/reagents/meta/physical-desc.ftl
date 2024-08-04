@@ -95,3 +95,5 @@ reagent-physical-desc-holy = holy
 reagent-physical-desc-slimy = slimy
 reagent-physical-desc-neural = neural
 reagent-physical-desc-glittering = glittering
+reagent-physical-desc-dangerous = dangerous
+reagent-physical-desc-very-blue = very blue

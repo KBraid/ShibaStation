@@ -30,3 +30,9 @@ reagent-desc-weh = Pure essence of lizard plush. Makes you Weh!
 
 reagent-name-blessium = blessium
 reagent-desc-blessium = If you ever needed conclusive evidence of a higher power, this might be it.
+
+reagent-name-bluberinol = bluberinol
+reagent-desc-bluberinol = A botched attempt at a fruit flavor enhancer. Highly unstable mutagenic compounds make this unwise for consumption, unless you want to go up a few dress sizes and like the colour blue.
+
+reagent-name-scp686 = SCP-686
+reagent-desc-scp686 = Caution: Unpasteurized. Do not mix with coffee. Do not feed to SCP-682.

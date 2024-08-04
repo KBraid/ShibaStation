@@ -166,3 +166,18 @@
   color: "#E6E6DA"
   physicalDesc: reagent-physical-desc-crystalline
   slippery: false
+
+- type: reagent
+  id: ChemicalX
+  name: reagent-name-chemical-x
+  desc: reagent-desc-chemical-x
+  flavor: chemicalx
+  physicalDesc: reagent-physical-desc-dangerous
+  color: "#4c1130"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cellular: 2.5 # Since it's supposed to alter the chems it's mixed with, drinking it raw will try to alter your DNA instead.

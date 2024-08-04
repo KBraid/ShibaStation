@@ -368,3 +368,19 @@
             Toxin: -2
             Airloss: -2
             Brute: -2
+
+- type: reagent
+  id: Bluberinol
+  name: reagent-name-bluberinol
+  desc: reagent-desc-bluberinol
+  physicalDesc: reagent-physical-desc-very-blue
+  flavor: bluberinol
+  color: "#05014a"
+
+- type: reagent
+  id: SCP686
+  name: reagent-name-scp686
+  desc: reagent-desc-scp686
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: creamy
+  color: "#fff2cc"
