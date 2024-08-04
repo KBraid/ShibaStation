@@ -1,32 +1,3 @@
-- type: marking
-  id: FelinidFluffyTailRings
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Felinid]
-  sprites:
-  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
-    state: Felinid_fluffy_tail_full
-  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
-    state: felinid_fluffy_tail_rings
-
-- type: marking
-  id: FelinidFluffyTail
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Felinid]
-  sprites:
-  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
-    state: Felinid_fluffy_tail_full
-
-- type: marking
-  id: FelinidAlternativeTail
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Felinid]
-  sprites:
-    - sprite: Mobs/Customization/Felinid/alternative_tail.rsi
-      state: m_waggingtail_cat_FRONT
-
 # Felinid Ears
 
 - type: marking
@@ -180,3 +151,33 @@
     state: basic_bow
   - sprite: Mobs/Customization/felinid_tails.rsi
     state: basic_bell
+
+- type: marking
+  id: FelinidFluffyTailRings
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Felinid]
+  sprites:
+  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
+    state: Felinid_fluffy_tail_full
+  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
+    state: felinid_fluffy_tail_rings
+
+- type: marking
+  id: FelinidFluffyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Felinid]
+  sprites:
+  - sprite: Mobs/Customization/Felinid/felinid_tails.rsi
+    state: Felinid_fluffy_tail_full
+
+- type: marking
+  id: FelinidAlternativeTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Felinid]
+  sprites:
+  - sprite: Mobs/Customization/Felinid/alternative_tail.rsi
+    state: m_waggingtail_cat_FRONT
+

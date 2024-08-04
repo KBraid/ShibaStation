@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Felinids have decided that Shiba Station fits, so they sits. Smol cat
+      friends now available as playable species!
+    type: Add
+  id: 49
+  time: '2024-08-04T17:05:41.616216'
+- author: AstroDoge
+  changes:
+  - message: Added a bunch of new funny chems in prep for future updates. They can't
+      be made and are inert, but they do exist.
+    type: Add
+  id: 48
+  time: '2024-08-04T17:06:18.442915'
+- author: AstroDoge
+  changes:
   - message: Fixed harpies not being able to wear anything. Now they can wear clothes.
       No more naked birbs.
     type: fix
