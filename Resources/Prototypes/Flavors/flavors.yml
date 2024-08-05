@@ -1115,7 +1115,7 @@
   description: flavor-complex-paint-thinner
 
 - type: flavor
-  id: chemicalx
+  id: chemical-x
   flavorType: Complex
   description: flavor-complex-chemical-x
 

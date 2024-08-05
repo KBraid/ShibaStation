@@ -171,7 +171,7 @@
   id: ChemicalX
   name: reagent-name-chemical-x
   desc: reagent-desc-chemical-x
-  flavor: chemicalx
+  flavor: chemical-x
   physicalDesc: reagent-physical-desc-dangerous
   color: "#4c1130"
   metabolisms:

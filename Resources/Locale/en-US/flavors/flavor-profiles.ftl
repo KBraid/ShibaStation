@@ -173,7 +173,7 @@ flavor-complex-violets = like violets
 flavor-complex-pyrotton = like a burning mouth
 flavor-complex-mothballs = like mothballs
 flavor-complex-paint-thinner = like paint thinner
-flavor-complex-chemicalx = like you shouldn't have drank that
+flavor-complex-chemical-x = like you shouldn't have drank that
 flavor-complex-bluberinol = like blueberry pie and ice cream
 flavor-complex-pure-sex = like pure sex
 
