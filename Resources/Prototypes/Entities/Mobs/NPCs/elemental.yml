@@ -324,6 +324,7 @@
         - ReagentSlimeEphedrine
         - ReagentSlimeRobustHarvest
         - ReagentSlimeSemen
+        - ReagentSlimeChemicalX
       chance: 1
 
 - type: entity
@@ -552,3 +553,23 @@
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
         color: "#F9F6F5"
+
+- type: entity
+  id: ReagentSlimeChemicalX
+  parent: ReagentSlime
+  suffix: Chemical X
+  components:
+  - type: Bloodstream
+    bloodReagent: ChemicalX
+  - type: PointLight
+    color: "#4c1130"
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/elemental.rsi
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: alive
+        color: "#4c1130"
+  - type: MeleeChemicalInjector
+    solution: bloodstream
+    transferAmount: 1
