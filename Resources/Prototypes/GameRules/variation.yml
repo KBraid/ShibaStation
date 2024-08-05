@@ -1,4 +1,4 @@
-﻿# Base
+# Base
 
 - type: entity
   id: BaseVariationPass
@@ -71,6 +71,8 @@
     - Sulfur
     - Acetone
     - Bleach
+    - Semen
+    - PussyJuice
   - quantity: 40
     weight: 3
     reagents:
@@ -88,6 +90,7 @@
     - Silver
     - Sodium
     - JuiceThatMakesYouWeh
+    - ChemicalX
 
 - type: weightedRandomFillSolution
   id: RandomFillTrashPuddleBloodbath
