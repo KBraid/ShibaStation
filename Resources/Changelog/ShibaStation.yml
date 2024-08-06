@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Lizards can now make more noises! Chirp, hiss, rattle, sigh and trill.
+      Oh, and one more, but it's a secret.
+    type: Add
+  id: 55
+  time: '2024-08-06T08:39:19.364975'
+- author: AstroDoge
+  changes:
+  - message: Added missing gasping and death gasps to the newer species (vulp, harpy
+      and felinids).
+    type: Fix
+  id: 54
+  time: '2024-08-06T08:39:50.635313'
+- author: AstroDoge
+  changes:
   - message: Displacement map for female body types added to Vulps, in line with other
       'human' like body shapes.
     type: Tweak
