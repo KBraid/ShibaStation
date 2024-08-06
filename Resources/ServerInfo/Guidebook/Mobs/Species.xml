@@ -10,10 +10,15 @@
   <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
+  <GuideEntityEmbed Entity="MobMoth" Caption="Lepidopteran"/>
   <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
-  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Amorphian"/>
   <GuideEntityEmbed Entity="MobVox" Caption="Vox"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
+  <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>
+  <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
   </Box>
 
 </Document>
