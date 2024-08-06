@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Harpies get the same move bonus as lepidopterans while in zero g (because
+      wings!)
+    type: Tweak
+  id: 57
+  time: '2024-08-06T09:00:11.093280'
+- author: AstroDoge
+  changes:
+  - message: Moth people and Slime people are now referred to as Lepidopterans and
+      Amorphians respectively.
+    type: Tweak
+  id: 56
+  time: '2024-08-06T08:48:55.277612'
+- author: AstroDoge
+  changes:
   - message: Lizards can now make more noises! Chirp, hiss, rattle, sigh and trill.
       Oh, and one more, but it's a secret.
     type: Add
