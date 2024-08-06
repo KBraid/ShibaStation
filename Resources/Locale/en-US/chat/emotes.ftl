@@ -46,6 +46,8 @@ chat-emote-name-vulpsnarl = Snarl
 chat-emote-name-vulpwhine = Whine
 chat-emote-name-vulphowl = Howl
 chat-emote-name-felinidgrowl = Growl
+chat-emote-name-lizardtrill = Trill
+chat-emote-name-lizardrattle = Rattle
 
 # Message
 chat-emote-msg-scream = screams!

@@ -79,3 +79,34 @@
   id: Weh
   files:
   - /Audio/Items/Toys/weh.ogg
+
+- type: soundCollection
+  id: ReptileChirp
+  files:
+    - /Audio/Voice/Reptilian/reptilian_chirp1.ogg
+    - /Audio/Voice/Reptilian/reptilian_chirp2.ogg
+    - /Audio/Voice/Reptilian/reptilian_chirp3.ogg
+
+- type: soundCollection
+  id: ReptileHiss
+  files:
+    - /Audio/Voice/Reptilian/reptilian_hiss1.ogg
+    - /Audio/Voice/Reptilian/reptilian_hiss2.ogg
+
+- type: soundCollection
+  id: ReptileRattle
+  files:
+    - /Audio/Voice/Reptilian/reptilian_rattle1.ogg
+    - /Audio/Voice/Reptilian/reptilian_rattle2.ogg
+    - /Audio/Voice/Reptilian/reptilian_rattle3.ogg
+
+- type: soundCollection
+  id: ReptileSigh
+  files:
+    - /Audio/Voice/Reptilian/reptilian_sigh.ogg
+
+- type: soundCollection
+  id: ReptileTrill
+  files:
+    - /Audio/Voice/Reptilian/reptilian_trill1.ogg
+    - /Audio/Voice/Reptilian/reptilian_trill2.ogg

@@ -96,6 +96,16 @@
       collection: MaleCry
     Weh:
       collection: Weh
+    Chirp:
+      collection: ReptileChirp
+    Hiss:
+      collection: ReptileHiss
+    Trill:
+      collection: ReptileTrill
+    Rattle:
+      collection: ReptileRattle
+    Sigh:
+      collection: ReptileSigh
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
@@ -118,6 +128,16 @@
       collection: FemaleCry
     Weh:
       collection: Weh
+    Chirp:
+      collection: ReptileChirp
+    Hiss:
+      collection: ReptileHiss
+    Trill:
+      collection: ReptileTrill
+    Rattle:
+      collection: ReptileRattle
+    Sigh:
+      collection: ReptileSigh
     Gasp:
       collection: FemaleGasp
     DefaultDeathgasp:
@@ -492,6 +512,12 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowl
+    Weh:
+      collection: Weh
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
 
 - type: emoteSounds
   id: FemaleHarpy
@@ -576,6 +602,12 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowl
+    Weh:
+      collection: Weh
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -610,6 +642,10 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowl
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -644,6 +680,10 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowl
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp
 
 # species
 - type: emoteSounds
@@ -675,6 +715,10 @@
       collection: FelinidPurrs
     Sigh:
       collection: MaleSigh
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
 
 - type: emoteSounds
   id: FemaleFelinid
@@ -705,6 +749,10 @@
       collection: FelinidPurrs
     Sigh:
       collection: FemaleSigh
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp
 
 # body emotes
 - type: emoteSounds
