@@ -1,4 +1,11 @@
 Entries:
+- author: NyastroCat
+  changes:
+  - message: Felyinids meow have a nyative cat accent (nyot OwOify). Mew can remove
+      it with the 'nyo species accent' trait if mew want to turn in your cat-card.
+    type: Add
+  id: 58
+  time: '2024-08-08T07:41:21.140703'
 - author: AstroDoge
   changes:
   - message: Harpies get the same move bonus as lepidopterans while in zero g (because

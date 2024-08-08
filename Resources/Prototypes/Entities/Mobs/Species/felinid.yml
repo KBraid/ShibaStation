@@ -58,6 +58,7 @@
       Unsexed: MaleFelinid
   - type: Felinid
   - type: NoShoesSilentFootsteps
+  - type: FelinidAccent
 
 - type: entity
   save: false
