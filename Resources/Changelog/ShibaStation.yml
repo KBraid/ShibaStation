@@ -1,4 +1,11 @@
 Entries:
+- author: AstroDoge
+  changes:
+  - message: Added Enferhunde subspecies as a playable race! Visually similar to Vulpkanin,
+      there's a bit more to them than meets the eye...
+    type: Add
+  id: 59
+  time: '2024-08-08T13:48:50.915545'
 - author: NyastroCat
   changes:
   - message: Felyinids meow have a nyative cat accent (nyot OwOify). Mew can remove

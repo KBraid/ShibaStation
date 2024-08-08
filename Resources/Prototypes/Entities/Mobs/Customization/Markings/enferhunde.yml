@@ -1,0 +1,952 @@
+# All the Vulpkanin customization
+
+# Ears Markings
+- type: marking
+  id: EnferEar
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp-inner
+
+- type: marking
+  id: EnferEarFade
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp-fade
+
+- type: marking
+  id: EnferEarSharp
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: vulp-sharp
+
+- type: marking
+  id: EnferEarJackal
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: jackal
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: jackal-inner
+
+- type: marking
+  id: EnferEarTerrier
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: terrier
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: terrier-inner
+
+- type: marking
+  id: EnferEarWolf
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: wolf
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: wolf-inner
+
+- type: marking
+  id: EnferEarFennec
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: fennec
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: fennec-inner
+
+- type: marking
+  id: EnferEarFox
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: fox
+
+- type: marking
+  id: EnferEarOtie
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: otie
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: otie-inner
+
+- type: marking
+  id: EnferEarTajaran
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: msai
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: msai-inner
+
+- type: marking
+  id: EnferEarShock
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: shock
+
+- type: marking
+  id: EnferEarCoyote
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: coyote
+
+- type: marking
+  id: EnferEarDalmatian
+  bodyPart: HeadTop
+  markingCategory: HeadSide
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/ear_markings.rsi
+      state: dalmatian
+
+# Head Markings (Snout)
+- type: marking
+  id: EnferSnoutAlt
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: muzzle_alt
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: muzzle
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnoutSharp
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: muzzle_sharp
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnoutFade
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: muzzle_fade
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnoutNose
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnoutMask
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: mask
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: nose
+
+- type: marking
+  id: EnferSnoutVulpine
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: vulpine
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: vulpine-lines
+
+- type: marking
+  id: EnferSnoutSwift
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: vulpine-lines
+
+- type: marking
+  id: EnferSnoutBlaze
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: blaze
+
+- type: marking
+  id: EnferSnoutPatch
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: patch
+
+# Head Markings (Head)
+- type: marking
+  id: EnferHeadTiger
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: tiger_head
+
+- type: marking
+  id: EnferHeadTigerFace
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: tiger_face
+
+- type: marking
+  id: EnferHeadSlash
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/head_markings.rsi
+      state: slash
+
+# Tail Markings
+- type: marking
+  id: EnferTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-fade
+
+- type: marking
+  id: EnferTailTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp-tip
+
+- type: marking
+  id: EnferTailWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag-tip #fade
+
+- type: marking
+  id: EnferTailWagTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag-tip
+
+- type: marking
+  id: EnferTailAlt
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_alt
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_alt-fade
+
+- type: marking
+  id: EnferTailAltTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_alt
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_alt-tip
+
+- type: marking
+  id: EnferTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: long
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: long-tip
+
+- type: marking
+  id: EnferTailFox
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox-fade
+
+- type: marking
+  id: EnferTailFoxTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox-tip
+
+- type: marking
+  id: EnferTailFoxWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag-fade
+
+- type: marking
+  id: EnferTailFoxWagTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag-tip
+
+- type: marking
+  id: EnferTailBushy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: bushfluff
+
+- type: marking
+  id: EnferTailBushyWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: bushfluff_wag
+
+- type: marking
+  id: EnferTailCoyote
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: coyote
+
+- type: marking
+  id: EnferTailCoyoteWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: coyote_wag
+
+- type: marking
+  id: EnferTailCorgiWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: corgi_wag
+
+- type: marking
+  id: EnferTailHusky
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky-inner
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky-outer
+
+- type: marking
+  id: EnferTailHuskyAlt
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: husky
+
+- type: marking
+  id: EnferTailFox2
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox2
+
+- type: marking
+  id: EnferTailFox3
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox3
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox3-tip
+
+- type: marking
+  id: EnferTailFennec
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fennec
+
+- type: marking
+  id: EnferTailOtie
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: otie
+
+- type: marking
+  id: EnferTailFluffy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fluffy
+
+- type: marking
+  id: EnferTailDalmatianWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: dalmatian_wag
+
+# Body Markings (Chest)
+- type: marking
+  id: EnferBellyCrest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: belly_crest
+
+- type: marking
+  id: EnferBellyFull
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: belly_full
+
+- type: marking
+  id: EnferBellyFox
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: belly_fox
+
+# # Body Markings (Overlay)
+# Eventually layering will allow to have markings on the body not layering above jumpsuits
+# - type: marking
+#   id: VulpBodyPointsCrest
+#   markingCategory: Overlay
+#   bodyPart: RFoot
+#   speciesRestriction: [Enferhunde]
+#   sprites:
+#     - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+#       state: points_crest
+#
+# - type: marking
+#   id: VulpBodyPointsFade
+#   markingCategory: Overlay
+#   bodyPart: RFoot
+#   speciesRestriction: [Enferhunde]
+#   sprites:
+#     - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+#       state: points_fade
+#
+# - type: marking
+#   id: VulpBodyPointsSharp
+#   markingCategory: Overlay
+#   bodyPart: RFoot
+#   speciesRestriction: [Enferhunde]
+#   sprites:
+#     - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+#       state: points_sharp
+
+# Leg Markings
+- type: marking
+  id: EnferPointsFeet
+  markingCategory: Overlay
+  bodyPart: RFoot
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_feet
+
+- type: marking
+  id: EnferPointsCrestLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_crest-legs
+
+- type: marking
+  id: EnferPointsFadeLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-legs
+
+- type: marking
+  id: EnferPointsSharpLegs
+  markingCategory: Legs
+  bodyPart: LLeg
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-legs
+
+# Arm Markings
+- type: marking
+  id: EnferPointsHands
+  markingCategory: Overlay
+  bodyPart: RHand
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_hands
+
+- type: marking
+  id: EnferPointsCrestArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_crest-arms
+
+- type: marking
+  id: EnferPointsFadeArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_fade-arms
+
+- type: marking
+  id: EnferPointsSharpArms
+  markingCategory: Arms
+  bodyPart: LArm
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+      state: points_sharp-arms
+
+# Hairs
+- type: marking
+  id: EnferHairAdhara
+  bodyPart: Hair
+  speciesRestriction: [Enferhunde]
+  markingCategory: Hair
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: adhara
+
+- type: marking
+  id: EnferHairAnita
+  bodyPart: Hair
+  speciesRestriction: [Enferhunde]
+  markingCategory: Hair
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: anita
+
+- type: marking
+  id: EnferHairApollo
+  bodyPart: Hair
+  speciesRestriction: [Enferhunde]
+  markingCategory: Hair
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: apollo
+
+- type: marking
+  id: EnferHairBelle
+  bodyPart: Hair
+  speciesRestriction: [Enferhunde]
+  markingCategory: Hair
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: belle
+
+- type: marking
+  id: EnferHairBraided
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: braided
+
+- type: marking
+  id: EnferHairBun
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: bun
+
+- type: marking
+  id: EnferHairCleanCut
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: clean_cut
+
+- type: marking
+  id: EnferHairCurl
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: curl
+
+- type: marking
+  id: EnferHairHawk
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: hawk
+
+- type: marking
+  id: EnferHairJagged
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: jagged
+
+- type: marking
+  id: EnferHairJeremy
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: jeremy
+
+- type: marking
+  id: EnferHairKajam
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: kajam
+
+- type: marking
+  id: EnferHairKeid
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: keid
+
+- type: marking
+  id: EnferHairKleeia
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: kleeia
+
+- type: marking
+  id: EnferHairMizar
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: mizar
+
+- type: marking
+  id: EnferHairPunkBraided
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: punkbraided
+
+- type: marking
+  id: EnferHairRaine
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: raine
+
+- type: marking
+  id: EnferHairRough
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: rough
+
+- type: marking
+  id: EnferHairShort
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: short
+
+- type: marking
+  id: EnferHairShort2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: short2
+
+- type: marking
+  id: EnferHairSpike
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+      state: spike
+
+# Facial Hairs
+- type: marking
+  id: EnferFacialHairRuff
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+      state: ruff
+
+- type: marking
+  id: EnferFacialHairElder
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+      state: elder
+
+- type: marking
+  id: EnferFacialHairElderChin
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+      state: elder_chin
+
+- type: marking
+  id: EnferFacialHairKita
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Enferhunde]
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+      state: kita
+
+# Horns borrowed from Lizzers for that Hellhound aesthetic
+
+- type: marking
+  id: EnferHornsCurled
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_curled
+
+- type: marking
+  id: EnferHornsRam
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_ram
+
+- type: marking
+  id: EnferHornsShort
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_short
+
+- type: marking
+  id: EnferHornsSimple
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_simple
+
+- type: marking
+  id: EnferHornsArgali
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_argali
+
+- type: marking
+  id: EnferHornsAyrshire
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_ayrshire
+
+- type: marking
+  id: EnferHornsMyrsore
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_myrsore
+
+- type: marking
+  id: EnferHornsBighorn
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_bighorn
+
+- type: marking
+  id: EnferHornsDemonic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Enferhunde]
+  sprites:
+  - sprite: Mobs/Customization/reptilian_parts.rsi
+    state: horns_demonic

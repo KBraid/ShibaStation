@@ -12,3 +12,4 @@ species-name-vox = Vox
 species-name-vulpkanin = Vulpkanin
 species-name-harpy = Harpy
 species-name-felinid = Felinid
+species-name-enferhunde = Enferhunde

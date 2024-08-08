@@ -1,0 +1,157 @@
+- type: species
+  id: Enferhunde
+  name: species-name-enferhunde
+  roundStart: true
+  prototype: MobEnferhunde
+  sprites: MobEnferhundeSprites
+  defaultSkinTone: "#fff9e2"
+  markingLimits: MobEnferhundeMarkingLimits
+  dollPrototype: MobEnferhundeDummy
+  skinColoration: TintedHues
+  maleFirstNames: names_vulpkanin_male
+  femaleFirstNames: names_vulpkanin_female
+  lastNames: names_vulpkanin_last
+
+- type: speciesBaseSprites
+  id: MobEnferhundeSprites
+  sprites:
+    Head: MobEnferhundeHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobEnferhundeTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobEnferhundeHeadSide
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobEnferhundeLArm
+    RArm: MobEnferhundeRArm
+    LHand: MobEnferhundeLHand
+    RHand: MobEnferhundeRHand
+    LLeg: MobEnferhundeLLeg
+    RLeg: MobEnferhundeRLeg
+    LFoot: MobEnferhundeLFoot
+    RFoot: MobEnferhundeRFoot
+
+- type: markingPoints
+  id: MobEnferhundeMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ EnferTail ]
+    Head:
+      points: 1
+      required: false
+    Legs:
+      points: 1
+      required: false
+    Arms:
+      points: 1
+      required: false
+    Snout:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: false
+    HeadSide:
+      points: 1
+      required: true
+      defaultMarkings: [ EnferEar ]
+    Overlay:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeHead
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeTorso
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeLLeg
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeLHand
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeLArm
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeLFoot
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeRLeg
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeRHand
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeRArm
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeRFoot
+  baseSprite:
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_foot
+
+- type: humanoidBaseSprite
+  id: MobEnferhundeHeadSide
