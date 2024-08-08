@@ -95,3 +95,21 @@
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
   longRange: true
+
+- type: radioChannel
+  id: Demon
+  name: chat-radio-demon
+  keycode: 'd'
+  frequency: 666
+  color: "#ff4242"
+  # long range since telepathic and works independent of telecoms
+  longRange: true
+
+- type: radioChannel
+  id: Holy
+  name: chat-radio-holy
+  keycode: 'g'
+  frequency: 777
+  color: "#FFD700"
+  # long range since telepathic and works independent of telecoms
+  longRange: true
