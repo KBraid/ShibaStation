@@ -5,6 +5,8 @@
   id: MobFelinidBase
   abstract: true
   components:
+  - type: Hunger
+  - type: Thirst
   - type: Sprite
     scale: 0.8, 0.8
   - type: HumanoidAppearance
