@@ -6,7 +6,6 @@ from datetime import datetime
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parts_dir = os.path.join(script_dir, '../Resources/Changelog/Parts')
 changelog_dir = os.path.join(script_dir, '../Resources/Changelog')
-log_file = os.path.join(script_dir, 'update_log.txt')
 
 def load_yaml_file(file_path):
     try:
@@ -83,10 +82,6 @@ def main():
             os.remove(part_path)
         else:
             log_entries.append(f"Failed to update changelog: {part_file}")
-
-    with open(log_file, 'w', encoding='utf-8') as log:
-        for entry in log_entries:
-            log.write(entry + '\n')
 
 if __name__ == '__main__':
     main()
