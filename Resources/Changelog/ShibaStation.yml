@@ -1,6 +1,13 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Added a ton of new music, end of round and a new nukie song - all of
+      which is definitely going to get me in trouble one day :3c
+    type: Add
+  id: 62
+  time: '2024-08-10T16:00:31.253371'
+- author: AstroDoge
+  changes:
   - message: Felinids are no longer immune to the desire to eat and drink. Noms and
       sips required.
     type: Fix
