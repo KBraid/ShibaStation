@@ -28,7 +28,7 @@ public sealed partial class FelinidAccentSystem : EntitySystem
     private static partial Regex NewRegex();
 
     [GeneratedRegex(@"pos", RegexOptions.IgnoreCase, "en-US")]
-    private static partial Regex NewRegex();
+    private static partial Regex PosRegex();
 
     private static readonly Dictionary<string, string> DirectReplacements = new()
     {
