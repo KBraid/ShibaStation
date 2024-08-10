@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Felinids are no longer immune to the desire to eat and drink. Noms and
+      sips required.
+    type: Fix
+  id: 61
+  time: '2024-08-10T12:44:30.790082'
+- author: AstroDoge
+  changes:
+  - message: Minor adjustments to the felinid accent, better word replacements and
+      a new letter replacement
+    type: Tweak
+  id: 60
+  time: '2024-08-10T12:44:01.768320'
+- author: AstroDoge
+  changes:
   - message: Added Enferhunde subspecies as a playable race! Visually similar to Vulpkanin,
       there's a bit more to them than meets the eye...
     type: Add
