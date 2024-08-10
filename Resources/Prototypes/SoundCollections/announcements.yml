@@ -1,6 +1,20 @@
 - type: soundCollection
   id: RoundEnd
   files:
-  - /Audio/Announcements/RoundEnd/apc_destroyed.ogg
-  - /Audio/Announcements/RoundEnd/disappointed.ogg
-  - /Audio/Announcements/RoundEnd/notevenpaidforthis.ogg
+    - /Audio/Announcements/RoundEnd/apc_destroyed.ogg
+    - /Audio/Announcements/RoundEnd/cdilinkiwon.ogg
+    - /Audio/Announcements/RoundEnd/disappointed.ogg
+    - /Audio/Announcements/RoundEnd/eyyowtf.ogg
+    - /Audio/Announcements/RoundEnd/gotothebathroom.ogg
+    - /Audio/Announcements/RoundEnd/gratsyouwon.ogg
+    - /Audio/Announcements/RoundEnd/greatjob.ogg
+    - /Audio/Announcements/RoundEnd/guilty.ogg
+    - /Audio/Announcements/RoundEnd/l4dsaferoom.ogg
+    - /Audio/Announcements/RoundEnd/mgsvrcomplete.ogg
+    - /Audio/Announcements/RoundEnd/nintendogstricklearned.ogg
+    - /Audio/Announcements/RoundEnd/notevenpaidforthis.ogg
+    - /Audio/Announcements/RoundEnd/sm64starget.ogg
+    - /Audio/Announcements/RoundEnd/thatswhatimtalkingaboutwow.ogg
+    - /Audio/Announcements/RoundEnd/wahoo.ogg
+    - /Audio/Announcements/RoundEnd/wariowins.ogg
+    - /Audio/Announcements/RoundEnd/yeahbaby.ogg

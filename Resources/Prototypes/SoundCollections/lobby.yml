@@ -1,15 +1,34 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/space_asshole_remastered.ogg
-    - /Audio/Lobby/title2.ogg
-    - /Audio/Lobby/title3-nmr.ogg
-    - /Audio/Lobby/doge_adventure.ogg
-    - /Audio/Lobby/most_mysterious_song.ogg
     - /Audio/Lobby/a_funky_moment.ogg
     - /Audio/Lobby/cocoa_cave.ogg
+    - /Audio/Lobby/doge_adventure.ogg
     - /Audio/Lobby/dreadzone_training.ogg
-    - /Audio/Lobby/pizza_phonk.ogg
+    - /Audio/Lobby/furious_angels.ogg
+    - /Audio/Lobby/hourglass_meadow.ogg
+    - /Audio/Lobby/how_to_play_sbb_sg.ogg
+    - /Audio/Lobby/icosa.ogg
+    - /Audio/Lobby/komm_susser_tod_astrophysics.ogg
+    - /Audio/Lobby/last_goodbye_undertale_sg.ogg
+    - /Audio/Lobby/like_a_prayer_dp_and_wolv.ogg
+    - /Audio/Lobby/main_menu_mkwii_sg.ogg
+    - /Audio/Lobby/mikus_little_dark_age.ogg
+    - /Audio/Lobby/mikus_real_hero.ogg
+    - /Audio/Lobby/most_mysterious_song.ogg
+    - /Audio/Lobby/options_mkwii_sg.ogg
+    - /Audio/Lobby/phoron_will_make_us_rich_remix.ogg
+    - /Audio/Lobby/photograph.ogg
+    - /Audio/Lobby/space_asshole_remastered.ogg
+    - /Audio/Lobby/sparkanoko.ogg
+    - /Audio/Lobby/starship_phoenix.ogg
+    - /Audio/Lobby/the_bomb.ogg
+    - /Audio/Lobby/the_boys_are_back_to_kill_you.ogg
     - /Audio/Lobby/the_gift_of_thought.ogg
     - /Audio/Lobby/the_underbelly.ogg
-    - /Audio/Lobby/starship_phoenix.ogg
+    - /Audio/Lobby/title2.ogg
+    - /Audio/Lobby/title3-nmr.ogg
+    - /Audio/Lobby/tron_legacy.ogg
+    - /Audio/Lobby/vacillate.ogg
+    - /Audio/Lobby/victory_ffx2.ogg
+    - /Audio/Lobby/voyager_sm64.ogg
