@@ -27,30 +27,40 @@ public sealed partial class FelinidAccentSystem : EntitySystem
     [GeneratedRegex(@"new", RegexOptions.IgnoreCase, "en-US")]
     private static partial Regex NewRegex();
 
+    [GeneratedRegex(@"pos", RegexOptions.IgnoreCase, "en-US")]
+    private static partial Regex NewRegex();
+
     private static readonly Dictionary<string, string> DirectReplacements = new()
     {
         { "right now", "right meow" },
         { "okay", "meowkay" },
         { "friend", "furriend" },
-        { "good", "paw-sitive" },
-        { "bad", "clawful" },
+        { "awful", "clawful" },
         { "please", "purrlease" },
         { "you", "mew" },
         { "food", "noms" },
+        { "drinks", "sips" },
         { "drink", "sips" },
         { "sleep", "catnap" },
         { "catastrophe", "cat-astrophe" },
         { "angry", "hissy" },
         { "scared", "scaredy-cat" },
         { "howdy", "meowdy" },
-        { "awesome", "purrsome" },
+        { "awesome", "clawsome" },
         { "amazing", "ameowzing" },
-        { "cute", "paw-dorable" },
-        { "excuse me", "pawdon me" },
+        { "cute", "cyoot" },
+        { "excuse me", "excmews me" },
         { "pardon me", "pawdon me" },
         { "morning", "meowning" },
         { "party", "pawty" },
-        { "very", "purry" }
+        { "very", "purry" },
+        { "mouse", "maus" },
+        { "rat", "big squeaker" },
+        { "rats", "big squeakers" },
+        { "rat king", "royal squeaker" },
+        { "weed", "nip" },
+        { "marijuana", "cat nip" },
+        { "cannabis", "cat nip" }
     };
 
     public override void Initialize()
@@ -72,9 +82,6 @@ public sealed partial class FelinidAccentSystem : EntitySystem
         // Replace 'na' with 'nya'
         message = NaRegex().Replace(message, match => PreserveCase(match.Value, "nya"));
 
-        // Replace 'new' with 'mew' when it's part of a word
-        message = NewRegex().Replace(message, match => PreserveCase(match.Value, "mew"));
-
         // Replace 'ne' with 'nye'
         message = NeRegex().Replace(message, match => PreserveCase(match.Value, "nye"));
 
@@ -86,6 +93,12 @@ public sealed partial class FelinidAccentSystem : EntitySystem
 
         // Replace 'nu' with 'nyu'
         message = NuRegex().Replace(message, match => PreserveCase(match.Value, "nyu"));
+
+        // Replace 'new' with 'mew' when it's part of a word
+        message = NewRegex().Replace(message, match => PreserveCase(match.Value, "mew"));
+
+        // Replace 'pos' with 'paws' when it's part of a word
+        message = PosRegex().Replace(message, match => PreserveCase(match.Value, "paws"));
 
         return message;
     }
