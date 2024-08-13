@@ -465,7 +465,7 @@
   parent: BasePDA
   id: CaptainPDA
   name: captain PDA
-  description: Surprisingly no different from your PDA.
+  description: Surprisingly no different from your PDA, except for remote access to the Communications Console.
   components:
   - type: Pda
     id: CaptainIDCard
@@ -480,6 +480,12 @@
     borderColor: "#7C5D00"
   - type: Icon
     state: pda-captain
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-station
+  - type: ActivatableSubUI
+    key: enum.CommunicationsConsoleUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-communications-console"
 
 - type: entity
   parent: BasePDA
