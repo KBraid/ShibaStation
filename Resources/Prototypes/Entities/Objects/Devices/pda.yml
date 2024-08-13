@@ -98,6 +98,8 @@
         type: InstrumentBoundUserInterface
       enum.HealthAnalyzerUiKey.Key:
         type: HealthAnalyzerBoundUserInterface
+      enum.ForensicScannerUiKey.Key:
+        type: ForensicScannerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -970,6 +972,14 @@
     borderColor: "#774705"
   - type: Icon
     state: pda-detective
+  - type: ForensicScanner
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - LogProbeCartridge
 
 - type: entity
   parent: BaseMedicalPDA
