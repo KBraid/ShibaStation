@@ -302,7 +302,7 @@
 
 - type: entity
   name: chaplain PDA
-  parent: BasePDA
+  parent: BaseMedicalPDA
   id: ChaplainPDA
   description: God's chosen PDA. Has a built in Health Analyzer, too!
   components:
@@ -313,10 +313,6 @@
     borderColor: "#333333"
   - type: Icon
     state: pda-chaplain
-  - type: HealthAnalyzer
-    scanDelay: 1
-    scanningEndSound:
-      path: "/Audio/Items/Medical/healthscanner.ogg"
 
 - type: entity
   name: quartermaster PDA
