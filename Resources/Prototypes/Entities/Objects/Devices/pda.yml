@@ -607,6 +607,10 @@
     state: pda-rd
   - type: AnomalyScanner
   - type: NodeScanner
+  - type: ActivatableSubUI
+    key: enum.AnomalyScannerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-anomaly-scanner"
 
 - type: entity
   parent: BasePDA
@@ -624,6 +628,10 @@
     state: pda-science
   - type: AnomalyScanner
   - type: NodeScanner
+  - type: ActivatableSubUI
+    key: enum.AnomalyScannerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-anomaly-scanner"
 
 - type: entity
   parent: BasePDA
@@ -758,6 +766,10 @@
   - type: Icon
     state: pda-atmos
   - type: GasAnalyzer
+  - type: ActivatableSubUI
+    key: enum.GasAnalyzerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-gas-analyzer"
 
 - type: entity
   parent: BasePDA
@@ -997,6 +1009,10 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - LogProbeCartridge
+  - type: ActivatableSubUI
+    key: enum.ForensicScannerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-forensic-scanner"
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1069,6 +1085,10 @@
     state: pda-seniorresearcher
   - type: AnomalyScanner
   - type: NodeScanner
+  - type: ActivatableSubUI
+    key: enum.AnomalyScannerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-anomaly-scanner"
 
 - type: entity
   parent: BaseMedicalPDA
