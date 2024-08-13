@@ -416,7 +416,7 @@
   parent: BasePDA
   id: JanitorPDA
   name: janitor PDA
-  description: Smells like bleach.
+  description: Smells like bleach. Has a built in Space Cleaner spray module.
   components:
   - type: Pda
     id: JanitorIDCard
@@ -425,6 +425,26 @@
     borderColor: "#5D2D56"
   - type: Icon
     state: pda-janitor
+  - type: Spray
+    transferAmount: 10
+    sprayVelocity: 2
+    spraySound:
+      path: /Audio/Effects/spray2.ogg
+  - type: SolutionItemStatus
+    solution: spray
+  - type: ExaminableSolution
+    solution: spray
+  - type: UseDelay
+  - type: SolutionRegeneration
+    solution: spray
+    generated:
+      reagents:
+      - ReagentId: SpaceCleaner
+        Quantity: 0.1
+  - type: SolutionContainerManager
+    solutions:
+      spray:
+        maxVol: 20
 
 - type: entity
   parent: BasePDA
@@ -811,10 +831,30 @@
   id: ERTJanitorPDA
   name: ERT Janitor PDA
   suffix: Janitor
-  description: Red for firepower, it's squeaky clean.
+  description: Red for firepower, it's squeaky clean. Has a built in Space Cleaner spray module.
   components:
   - type: Pda
     id: ERTJanitorIDCard
+  - type: Spray
+    transferAmount: 10
+    sprayVelocity: 2
+    spraySound:
+      path: /Audio/Effects/spray2.ogg
+  - type: SolutionItemStatus
+    solution: spray
+  - type: ExaminableSolution
+    solution: spray
+  - type: UseDelay
+  - type: SolutionRegeneration
+    solution: spray
+    generated:
+      reagents:
+      - ReagentId: SpaceCleaner
+        Quantity: 1
+  - type: SolutionContainerManager
+    solutions:
+      spray:
+        maxVol: 50
 
 - type: entity
   parent: ERTLeaderPDA
