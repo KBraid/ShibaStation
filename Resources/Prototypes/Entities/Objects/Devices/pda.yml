@@ -100,6 +100,8 @@
         type: HealthAnalyzerBoundUserInterface
       enum.ForensicScannerUiKey.Key:
         type: ForensicScannerBoundUserInterface
+      enum.AnomalyScannerUiKey.Key:
+        type: AnomalyScannerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -598,6 +600,8 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-rd
+  - type: AnomalyScanner
+  - type: NodeScanner
 
 - type: entity
   parent: BasePDA
@@ -613,6 +617,8 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-science
+  - type: AnomalyScanner
+  - type: NodeScanner
 
 - type: entity
   parent: BasePDA
@@ -963,7 +969,7 @@
   parent: BasePDA
   id: DetectivePDA
   name: detective PDA
-  description: Smells like rain... pouring down the rooftops...
+  description: Smells like rain... pouring down the rooftops... and has a built in Forensic Scanner and LogProbe preinstalled.
   components:
   - type: Pda
     id: DetectiveIDCard
