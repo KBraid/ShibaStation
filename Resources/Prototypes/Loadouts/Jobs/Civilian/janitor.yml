@@ -24,12 +24,12 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanitor
 
-- type: startingGear
+- type: loadout
   id: JanitorJumpskirtMaid
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanimaid
 
-- type: startingGear
+- type: loadout
   id: JanitorJumpskirtMaidmini
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanimaidmini
