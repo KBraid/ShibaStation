@@ -491,7 +491,7 @@
   parent: BasePDA
   id: HoPPDA
   name: head of personnel PDA
-  description: Looks like it's been chewed on.
+  description: Looks like it's been chewed on. Has extra slots to perform ID Card Computer duties!
   components:
   - type: Pda
     id: HoPIDCard
@@ -672,7 +672,7 @@
   parent: BasePDA
   id: HoSPDA
   name: head of security PDA
-  description: Whosoever bears this PDA is the law.
+  description: Whosoever bears this PDA is the law. Can remotely access the Criminal Records computer.
   components:
   - type: Pda
     id: HoSIDCard
@@ -692,7 +692,7 @@
   parent: BasePDA
   id: WardenPDA
   name: warden PDA
-  description: The OS appears to have been jailbroken.
+  description: The OS appears to have been jailbroken. Can remotely access the Criminal Records computer.
   components:
   - type: Pda
     id: WardenIDCard
