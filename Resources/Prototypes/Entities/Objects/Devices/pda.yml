@@ -86,6 +86,7 @@
   - type: ActivatableUI
     key: enum.PdaUiKey.Key
     singleUser: true
+    verbText: "ui-verb-toggle-pda"
   - type: UserInterface
     interfaces:
       enum.PdaUiKey.Key:
@@ -104,6 +105,8 @@
         type: AnomalyScannerBoundUserInterface
       enum.GasAnalyzerUiKey.Key:
         type: GasAnalyzerBoundUserInterface
+      enum.NewsWriterUiKey.Key:
+        type: NewsWriterBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -938,6 +941,11 @@
     borderColor: "#3f3f74"
   - type: Icon
     state: pda-reporter
+  - type: NewsWriter
+  - type: ActivatableSubUI # Allows usual PDA usage AND news writing UI at the same time.
+    key: enum.NewsWriterUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-news-writer"
 
 - type: entity
   parent: BasePDA
