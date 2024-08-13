@@ -102,6 +102,8 @@
         type: ForensicScannerBoundUserInterface
       enum.AnomalyScannerUiKey.Key:
         type: AnomalyScannerBoundUserInterface
+      enum.GasAnalyzerUiKey.Key:
+        type: GasAnalyzerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -589,7 +591,7 @@
   parent: BasePDA
   id: RnDPDA
   name: research director PDA
-  description: It appears surprisingly ordinary.
+  description: It appears surprisingly ordinary. Has a built in Anomaly and Node Scanner.
   components:
   - type: Pda
     id: RDIDCard
@@ -607,7 +609,7 @@
   parent: BasePDA
   id: SciencePDA
   name: science PDA
-  description: It's covered with an unknown gooey substance.
+  description: It's covered with an unknown gooey substance. Has a built in Anomaly and Node Scanner.
   components:
   - type: Pda
     id: ResearchIDCard
@@ -742,7 +744,7 @@
   parent: BasePDA
   id: AtmosPDA
   name: atmos PDA
-  description: Still smells like plasma.
+  description: Still smells like plasma. Has a built in Gas Analyzer.
   components:
   - type: Pda
     id: AtmosIDCard
@@ -752,6 +754,7 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-atmos
+  - type: GasAnalyzer
 
 - type: entity
   parent: BasePDA
@@ -1045,7 +1048,7 @@
   parent: BasePDA
   id: SeniorResearcherPDA
   name: senior researcher PDA
-  description: Looks like it's been through years of chemical burns and explosions.
+  description: Looks like it's been through years of chemical burns and explosions. Has a built in Anomaly and Node Scanner.
   components:
   - type: Pda
     id: SeniorResearcherIDCard
@@ -1056,6 +1059,8 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-seniorresearcher
+  - type: AnomalyScanner
+  - type: NodeScanner
 
 - type: entity
   parent: BaseMedicalPDA
