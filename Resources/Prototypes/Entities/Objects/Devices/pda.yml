@@ -107,6 +107,12 @@
         type: GasAnalyzerBoundUserInterface
       enum.NewsWriterUiKey.Key:
         type: NewsWriterBoundUserInterface
+      enum.CriminalRecordsConsoleKey.Key:
+        type: CriminalRecordsConsoleBoundUserInterface
+      enum.CommunicationsConsoleUiKey.Key:
+        type: CommunicationsConsoleBoundUserInterface
+      enum.IdCardConsoleUiKey.Key:
+        type: IdCardConsoleBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -647,6 +653,11 @@
     accentHColor: "#447987"
   - type: Icon
     state: pda-hos
+  - type: CriminalRecordsConsole
+  - type: ActivatableSubUI
+    key: enum.CriminalRecordsConsoleKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-criminal-records-console"
 
 - type: entity
   parent: BasePDA
@@ -662,6 +673,11 @@
     accentVColor: "#949137"
   - type: Icon
     state: pda-warden
+  - type: CriminalRecordsConsole
+  - type: ActivatableSubUI
+    key: enum.CriminalRecordsConsoleKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-criminal-records-console"
 
 - type: entity
   parent: BasePDA
