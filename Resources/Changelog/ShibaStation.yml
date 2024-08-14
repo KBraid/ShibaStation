@@ -1,6 +1,92 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Entities that can display more than one UI now have an additional Verb
+      Menu action. Check out your PDAs if you've just had a firmware update!
+    type: Tweak
+  id: 74
+  time: '2024-08-14T14:55:59.584204'
+- author: AstroDoge
+  changes:
+  - message: Science PDA now has a built in Anomaly Scanner and Node Scanner - why
+      does Medical get to have all the fun?
+    type: Add
+  id: 73
+  time: '2024-08-14T14:55:55.852930'
+- author: AstroDoge
+  changes:
+  - message: Reporter PDA can now update the News Articles remotely! Spread misinformation
+      the moment it happens!
+    type: Add
+  id: 72
+  time: '2024-08-14T14:55:50.672605'
+- author: AstroDoge
+  changes:
+  - message: HoS PDA and Warden PDA now have remote access to the Criminal Records
+      computer; set an arrest warrant on the Clown while you're getting drunk at the
+      bar!
+    type: Add
+  id: 71
+  time: '2024-08-14T14:55:43.568686'
+- author: AstroDoge
+  changes:
+  - message: HoP PDA now has a miniature ID card computer built in for on-the-go demotions!
+    type: Add
+  id: 70
+  time: '2024-08-14T14:55:37.468668'
+- author: AstroDoge
+  changes:
+  - message: Detective PDA is now a Forensic Scanner and has the LogProbe app preinstalled!
+      Go solve those crimes!
+    type: Tweak
+  id: 69
+  time: '2024-08-13T14:27:16.993549'
+- author: AstroDoge
+  changes:
+  - message: Captain PDA now has remote access to the Comms Console! Now the shuttle
+      can be recalled remotely and the suffering can never end!
+    type: Add
+  id: 68
+  time: '2024-08-14T14:55:28.431365'
+- author: AstroDoge
+  changes:
+  - message: Atmos Tech PDA now has a Gas Analyzer built in! Reassure the crew that
+      it's just ammonia and not frezon.
+    type: Add
+  id: 67
+  time: '2024-08-14T14:55:33.890736'
+- author: AstroDoge
+  changes:
+  - message: (Admin) aghosts now have four pockets in their hotbar, instead of ZERO.
+      Seriously, why no pockets?
+    type: Add
+  id: 66
+  time: '2024-08-13T13:43:17.041174'
+- author: AstroDoge
+  changes:
+  - message: Janitor PDA now has a Space Cleaner module that *very slowly* regenerates,
+      up to two full sprays. For Emergency Use Only - DO NOT DRINK!
+    type: Add
+  id: 65
+  time: '2024-08-13T13:41:58.987963'
+- author: AstroDoge
+  changes:
+  - message: Janitors can now be pretty maids again at loadout. Something broke after
+      an upstream merge, but I fixed it now :3c
+    type: Fix
+  id: 64
+  time: '2024-08-13T13:42:41.342983'
+- author: AstroDoge
+  changes:
+  - message: Chaplain PDA's health scanner no longer throws errors in the log when
+      used. This also 'fixes' an unintended 'feature' that allowed you to health scan
+      and then pocket the PDA, keeping the scan active. It now works exactly like
+      a regular medical PDA.
+    type: Fix
+  id: 63
+  time: '2024-08-13T13:41:08.993969'
+- author: AstroDoge
+  changes:
   - message: Added a ton of new music, end of round and a new nukie song - all of
       which is definitely going to get me in trouble one day :3c
     type: Add
