@@ -1,6 +1,41 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: All Security PDAs (Cadet, SecOff, SenOff, Ward, HoS) have a built in
+      guide button (Shift-Click PDA -> (?) Icon) that opens up the Space Law documentation.
+      Probably a good idea to know what you're enforcing before you enforce it, huh?'
+    type: Tweak
+  id: 79
+  time: '2024-08-15T05:16:33.903607'
+- author: AstroDoge
+  changes:
+  - message: Passenger (and Clear) PDAs now have a built in station map, to help tiders
+      locate the toolshed and departments to break in to.
+    type: Add
+  id: 78
+  time: '2024-08-15T04:51:20.263952'
+- author: AstroDoge
+  changes:
+  - message: Original 'Kobolds' are now renamed 'Feral Kobolds' to separate them from
+      'Prime Kobolds'. Ferals are the ones that are okay to experiment on, Science.
+    type: Tweak
+  id: 77
+  time: '2024-08-15T05:34:52.140507'
+- author: AstroDoge
+  changes:
+  - message: Prime Kobolds have arrived! Pocket lizzers up to tricksssesss.
+    type: Add
+  id: 76
+  time: '2024-08-15T04:45:33.842561'
+- author: AstroDoge
+  changes:
+  - message: Engineering PDAs (CE, Engie and Interns) have remote access to the Power
+      Monitoring Console; to help keep the station tip-top!
+    type: Add
+  id: 75
+  time: '2024-08-15T05:03:14.190196'
+- author: AstroDoge
+  changes:
   - message: Entities that can display more than one UI now have an additional Verb
       Menu action. Check out your PDAs if you've just had a firmware update!
     type: Tweak
