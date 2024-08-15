@@ -11,3 +11,5 @@ ui-verb-toggle-forensic-scanner = Toggle Forensic Scanner UI
 ui-verb-toggle-criminal-records-console = Toggle Criminal Records UI
 ui-verb-toggle-communications-console = Toggle Communications Console UI
 ui-verb-toggle-id-card-console = Toggle ID Card Console UI
+ui-verb-toggle-power-monitor = Toggle Power Monitor UI
+ui-verb-toggle-station-map = Toggle Station Map UI
