@@ -72,3 +72,5 @@
   components:
   - type: HumanoidAppearance
     species: Felinid
+  - type: Sprite
+    scale: 0.8, 0.8
