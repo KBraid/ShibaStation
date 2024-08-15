@@ -147,6 +147,7 @@
     state: pda
   - type: PdaBorderColor
     borderColor: "#717059"
+  - type: StationMap
   - type: ActivatableSubUI
     key: enum.StationMapUiKey.Key
     verbOnly: true
@@ -156,7 +157,7 @@
   parent: BasePDA
   id: TechnicalAssistantPDA
   name: technical assistant PDA
-  description: Why isn't it yellow?
+  description: Why isn't it yellow? Has a built in Power Monitoring Console.
   components:
   - type: Pda
     id: TechnicalAssistantIDCard
@@ -166,6 +167,8 @@
     accentVColor: "#949137"
   - type: Icon
     state: pda-interntech
+  - type: PowerMonitoringConsole
+  - type: PowerMonitoringCableNetworks
   - type: ActivatableSubUI
     key: enum.PowerMonitoringConsoleUiKey.Key
     verbOnly: true
@@ -203,6 +206,9 @@
     accentVColor: "#A32D26"
   - type: Icon
     state: pda-interncadet
+  - type: GuideHelp
+    guides:
+    - SpaceLaw
 
 - type: entity
   parent: BasePDA
@@ -551,7 +557,7 @@
   parent: BasePDA
   id: CEPDA
   name: chief engineer PDA
-  description: Looks like it's barely been used.
+  description: Looks like it's barely been used. Has a built in Power Monitoring Console.
   components:
   - type: Pda
     id: CEIDCard
@@ -561,6 +567,8 @@
     accentHColor: "#447987"
   - type: Icon
     state: pda-ce
+  - type: PowerMonitoringConsole
+  - type: PowerMonitoringCableNetworks
   - type: ActivatableSubUI
     key: enum.PowerMonitoringConsoleUiKey.Key
     verbOnly: true
@@ -570,7 +578,7 @@
   parent: BasePDA
   id: EngineerPDA
   name: engineer PDA
-  description: Rugged and well-worn.
+  description: Rugged and well-worn. Has a built in Power Monitoring Console.
   components:
   - type: Pda
     id: EngineeringIDCard
@@ -580,6 +588,8 @@
     accentVColor: "#A32D26"
   - type: Icon
     state: pda-engineer
+  - type: PowerMonitoringConsole
+  - type: PowerMonitoringCableNetworks
   - type: ActivatableSubUI
     key: enum.PowerMonitoringConsoleUiKey.Key
     verbOnly: true
@@ -711,6 +721,9 @@
     key: enum.CriminalRecordsConsoleKey.Key
     verbOnly: true
     verbText: "ui-verb-toggle-criminal-records-console"
+  - type: GuideHelp
+    guides:
+    - SpaceLaw
 
 - type: entity
   parent: BasePDA
@@ -731,6 +744,9 @@
     key: enum.CriminalRecordsConsoleKey.Key
     verbOnly: true
     verbText: "ui-verb-toggle-criminal-records-console"
+  - type: GuideHelp
+    guides:
+    - SpaceLaw
 
 - type: entity
   parent: BasePDA
@@ -745,6 +761,9 @@
     borderColor: "#A32D26"
   - type: Icon
     state: pda-security
+  - type: GuideHelp
+    guides:
+    - SpaceLaw
 
 - type: entity
   parent: BasePDA
@@ -853,6 +872,7 @@
     borderColor: "#288e4d"
   - type: Icon
     state: pda-clear
+  - type: StationMap
   - type: ActivatableSubUI
     key: enum.StationMapUiKey.Key
     verbOnly: true
@@ -1130,7 +1150,7 @@
   parent: BasePDA
   id: SeniorEngineerPDA
   name: senior engineer PDA
-  description: Seems to have been taken apart and put back together several times.
+  description: Seems to have been taken apart and put back together several times. Has a built in Power Monitoring Console.
   components:
   - type: Pda
     id: SeniorEngineerIDCard
@@ -1140,6 +1160,8 @@
     accentVColor: "#CD6900"
   - type: Icon
     state: pda-seniorengineer
+  - type: PowerMonitoringConsole
+  - type: PowerMonitoringCableNetworks
   - type: ActivatableSubUI
     key: enum.PowerMonitoringConsoleUiKey.Key
     verbOnly: true
@@ -1197,6 +1219,9 @@
     accentVColor: "#DFDFDF"
   - type: Icon
     state: pda-seniorofficer
+  - type: GuideHelp
+    guides:
+    - SpaceLaw
 
 - type: entity
   parent: SyndiPDA
