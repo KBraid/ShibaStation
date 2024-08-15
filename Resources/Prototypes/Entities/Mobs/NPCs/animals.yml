@@ -1344,7 +1344,7 @@
   - type: NukeOperative
 
 - type: entity
-  name: kobold
+  name: feral kobold
   id: MobBaseKobold
   parent: MobBaseAncestor
   description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
@@ -1454,7 +1454,7 @@
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
-  name: kobold
+  name: feral kobold
   id: MobKobold
   parent: MobBaseKobold
   description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
