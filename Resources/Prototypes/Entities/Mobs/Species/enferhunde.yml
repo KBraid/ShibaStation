@@ -120,6 +120,8 @@
   noSpawn: true
   description: A dummy enferhunde meant to be used in character setup.
   components:
+  - type: Sprite
+    scale: 1.1, 1.1
   - type: HumanoidAppearance
     species: Enferhunde
   - type: Inventory # Allows vulps to wear properly shaped helmets
