@@ -408,6 +408,9 @@
     borderColor: "#333333"
   - type: Icon
     state: pda-bartender
+  - type: GuideHelp
+    guides:
+    - Drinks
 
 - type: entity
   parent: BasePDA
@@ -658,6 +661,9 @@
     accentVColor: "#B34200"
   - type: Icon
     state: pda-chemistry
+  - type: GuideHelp
+    guides:
+    - Chemicals
 
 - type: entity
   parent: BasePDA
