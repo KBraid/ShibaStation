@@ -113,6 +113,8 @@
         type: CommunicationsConsoleBoundUserInterface
       enum.IdCardConsoleUiKey.Key:
         type: IdCardConsoleBoundUserInterface
+      enum.StationMapUiKey.Key:
+        type: StationMapBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -143,6 +145,10 @@
     state: pda
   - type: PdaBorderColor
     borderColor: "#717059"
+  - type: ActivatableSubUI
+    key: enum.StationMapUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-station-map"
 
 - type: entity
   parent: BasePDA
@@ -829,6 +835,10 @@
     borderColor: "#288e4d"
   - type: Icon
     state: pda-clear
+  - type: ActivatableSubUI
+    key: enum.StationMapUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-station-map"
 
 - type: entity
   parent: BasePDA
