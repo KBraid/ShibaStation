@@ -212,6 +212,10 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-internsci
+  - type: ActivatableSubUI
+    key: enum.AnomalyScannerUiKey.Key
+    verbOnly: true
+    verbText: "ui-verb-toggle-anomaly-scanner"
 
 - type: entity
   parent: BasePDA
