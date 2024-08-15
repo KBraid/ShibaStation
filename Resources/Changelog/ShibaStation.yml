@@ -1,6 +1,21 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Chemistry and Bartender PDAs now have guide buttons to bring up the Chemicals
+      and Drinks guidebook entries respectively. No more fumbling through extra tabs
+      to remember how to make Dylo or Moonshine!
+    type: Add
+  id: 81
+  time: '2024-08-15T13:47:39.534861'
+- author: AstroDoge
+  changes:
+  - message: Prime Kobolds have had their physics tweaked to be more like the Dwarf
+      and Felinid; ala smol and easily pushable. No bully.
+    type: Tweak
+  id: 80
+  time: '2024-08-15T13:57:18.477208'
+- author: AstroDoge
+  changes:
   - message: All Security PDAs (Cadet, SecOff, SenOff, Ward, HoS) have a built in
       guide button (Shift-Click PDA -> (?) Icon) that opens up the Space Law documentation.
       Probably a good idea to know what you're enforcing before you enforce it, huh?'
