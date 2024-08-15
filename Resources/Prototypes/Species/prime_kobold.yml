@@ -1,0 +1,150 @@
+- type: species
+  id: PrimeKobold
+  name: species-name-prime-kobold
+  roundStart: true
+  prototype: MobPrimeKobold
+  sprites: MobPrimeKoboldSprites
+  defaultSkinTone: "#34a223"
+  markingLimits: MobPrimeKoboldMarkingLimits
+  dollPrototype: MobPrimeKoboldDummy
+  skinColoration: Hues
+  maleFirstNames: names_reptilian_male
+  femaleFirstNames: names_reptilian_female
+  naming: FirstDashFirst
+
+- type: speciesBaseSprites
+  id: MobPrimeKoboldSprites
+  sprites:
+    Head: MobPrimeKoboldHead
+    Snout: MobHumanoidAnyMarking
+    Chest: MobPrimeKoboldTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobPrimeKoboldLArm
+    RArm: MobPrimeKoboldRArm
+    LHand: MobPrimeKoboldLHand
+    RHand: MobPrimeKoboldRHand
+    LLeg: MobPrimeKoboldLLeg
+    RLeg: MobPrimeKoboldRLeg
+    LFoot: MobPrimeKoboldLFoot
+    RFoot: MobPrimeKoboldRFoot
+
+- type: markingPoints
+  id: MobPrimeKoboldMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ LizardTailSmooth ]
+    Snout:
+      points: 1
+      required: true
+      defaultMarkings: [ LizardSnoutRound ]
+    HeadTop:
+      points: 2
+      required: false
+    HeadSide:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldHead
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldTorso
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldLLeg
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldLHand
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldLArm
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldLFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldRLeg
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldRHand
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldRArm
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobPrimeKoboldRFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_foot

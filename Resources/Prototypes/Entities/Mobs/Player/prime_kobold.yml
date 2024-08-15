@@ -1,0 +1,10 @@
+- type: entity
+  save: false
+  name: Urist McScales
+  suffix: Urisst' Mztinyhand
+  parent: BaseMobPrimeKobold
+  id: MobPrimeKobold
+  components:
+    - type: SolutionScanner # Reptilians can innately tell what a substance is due to their amazing sense of smell, of course!
+
+#Little Weh
