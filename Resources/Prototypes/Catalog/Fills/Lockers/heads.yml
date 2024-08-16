@@ -156,8 +156,6 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
-    - id: RCD
-    - id: RCDAmmo
     - id: RubberStampCE
 
 # Hardsuit table, used for suit storage as well
