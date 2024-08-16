@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Disregard the Upstream again; zere ist only ein German accent und it
+      ist ze ShibaStation variant!
+    type: Fix
+  id: 87
+  time: '2024-08-16T07:54:58.456473'
+- author: AstroDoge
+  changes:
+  - message: Oi, added the bloody Geeza Accent, innit? Now ya can sound like a propa
+      'ard man, yeh?
+    type: Add
+  id: 86
+  time: '2024-08-16T07:52:28.800214'
+- author: AstroDoge
+  changes:
   - message: Experimental RCD is now part of the Experimental Tools research node
       and can be printed on the Protolathe once unlocked!
     type: Add
