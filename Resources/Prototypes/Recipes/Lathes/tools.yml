@@ -207,6 +207,15 @@
     Plasma: 200
 
 - type: latheRecipe
+  id: RCDRecharging
+  result: RCDRecharging
+  category: Tools
+  completetime: 6
+  materials:
+    Steel: 800
+    Plasma: 200
+
+- type: latheRecipe
   id: JawsOfLife
   result: JawsOfLife
   category: Tools
