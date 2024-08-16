@@ -54,8 +54,11 @@ trait-italian-desc = Mamma mia! You seem to have lived in space italy!
 trait-german-name = German accent
 trait-german-desc = Das ist ein Zirkus, mein Leben!
 
-trait-scottish-accent-name = Scottish Accent
+trait-scottish-accent-name = Scottish accent
 trait-scottish-accent-desc = Fer tha folk who come frae Hielan clan.
+
+trait-geeza-name = Geeza accent
+trait-geeza-desc = You speak loik a propa geeza, innit!
 
 trait-ultravision-name = Ultraviolet Vision
 trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
@@ -63,7 +66,7 @@ trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
 
 trait-deuteranopia-name = Deuteranopia
 trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
-                          or being a Vulpkanin, you have red–green colour blindness.
+                          or being a Vulpkanin, you have redâ€“green colour blindness.
 
 trait-defaultvision-name = * No Species Vision
 trait-defaultvision-desc = You lack any vision variation from the norm for a non-human species.

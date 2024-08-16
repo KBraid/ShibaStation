@@ -64,6 +64,15 @@
     - type: GermanAccent
 
 - type: trait
+  id: GeezaAccent
+  name: trait-geeza-name
+  description: trait-geeza-desc
+  category: AccentTraits
+  cost: 1
+  components:
+    - type: GeezaAccent
+
+- type: trait
   id: Liar
   name: trait-liar-name
   description: trait-liar-desc
