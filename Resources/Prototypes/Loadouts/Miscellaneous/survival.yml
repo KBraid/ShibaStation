@@ -22,6 +22,7 @@
     - Harpy
     - Felinid
     - Enferhunde
+    - PrimeKobold
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
